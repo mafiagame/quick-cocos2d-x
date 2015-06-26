@@ -1,0 +1,1464 @@
+
+{
+	gl.supports_vertex_array_object: true
+	cocos2d.x.version: quick-cocos2d-x 3.3
+	gl.vendor: NVIDIA Corporation
+	gl.supports_PVRTC: false
+	gl.renderer: NVIDIA GeForce GT 750M OpenGL Engine
+	cocos2d.x.compiled_with_profiler: false
+	gl.max_texture_size: 16384
+	gl.supports_ETC1: false
+	gl.supports_BGRA8888: false
+	cocos2d.x.build_type: DEBUG
+	gl.supports_discard_framebuffer: false
+	gl.supports_NPOT: true
+	gl.supports_S3TC: true
+	gl.version: 2.1 NVIDIA-10.2.7 310.41.25f01
+	gl.supports_ATITC: false
+	gl.max_texture_units: 16
+	cocos2d.x.compiled_with_gl_state_cache: true
+}
+
+
+Quick-Cocos2d-x C++ support ready.
+------------------------------------------------
+LOAD LUA FILE: /Users/imbahom_mbp/Documents/quick-3.3/quick/samples/towerdefense/src/main.lua
+------------------------------------------------
+[LUA-print] ===========================================================
+[LUA-print]               LOAD QUICK FRAMEWORK
+[LUA-print] ===========================================================
+[LUA-print] [INFO] 
+[LUA-print] [INFO] # DEBUG                        = 1
+[LUA-print] [INFO] #
+[LUA-print] [INFO] # device.platform              = mac
+[LUA-print] [INFO] # device.model                 = unknown
+[LUA-print] [INFO] # device.language              = cn
+[LUA-print] [INFO] # device.writablePath          = /Users/imbahom_mbp/Documents/quick-3.3/quick/samples/towerdefense/
+[LUA-print] [INFO] # device.directorySeparator    = /
+[LUA-print] [INFO] # device.pathSeparator         = :
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[LUA-print] [INFO] # display.widthInPixels        = 960.00
+[LUA-print] [INFO] # display.heightInPixels       = 640.00
+[LUA-print] [INFO] # display.contentScaleFactor   = 1.00
+[LUA-print] [INFO] # display.width                = 960.00
+[LUA-print] [INFO] # display.height               = 640.00
+[LUA-print] [INFO] # display.cx                   = 480.00
+[LUA-print] [INFO] # display.cy                   = 320.00
+[LUA-print] [INFO] # display.left                 = 0.00
+[LUA-print] [INFO] # display.right                = 960.00
+[LUA-print] [INFO] # display.top                  = 640.00
+[LUA-print] [INFO] # display.bottom               = 0.00
+[LUA-print] [INFO] # display.c_left               = -480.00
+[LUA-print] [INFO] # display.c_right              = 480.00
+[LUA-print] [INFO] # display.c_top                = 320.00
+[LUA-print] [INFO] # display.c_bottom             = -320.00
+[LUA-print] [INFO] #
+Currently only supported on iOS and Android!
+Currently only supported on iOS and Android!
+Currently only supported on iOS and Android!
+Currently only supported on iOS and Android!
+Currently only supported on iOS and Android!
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "radius" = 32
+[LUA-print] -     "tag"    = 0
+[LUA-print] -     "x"      = 1490
+[LUA-print] -     "y"      = 1100
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "radius" = 38
+[LUA-print] -     "tag"    = 0
+[LUA-print] -     "x"      = 542
+[LUA-print] -     "y"      = 1111
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 454
+[LUA-print] -     "y"                = 465
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 693
+[LUA-print] -     "y"                = 246
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 901
+[LUA-print] -     "y"                = 250
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 982
+[LUA-print] -     "y"                = 265
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 1069
+[LUA-print] -     "y"                = 275
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 674
+[LUA-print] -     "y"                = 708
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 782
+[LUA-print] -     "y"                = 686
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 886
+[LUA-print] -     "y"                = 703
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 1121
+[LUA-print] -     "y"                = 718
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 1369
+[LUA-print] -     "y"                = 597
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 559
+[LUA-print] -     "y"                = 473
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 436
+[LUA-print] -     "y"                = 722
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "IncreaseHp"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 132
+[LUA-print] -     "y"          = 960
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "Building01"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 93
+[LUA-print] -     "y"          = 364
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "Building01"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 1487
+[LUA-print] -     "y"          = 290
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 660
+[LUA-print] -     "y"                = 466
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "IncreaseHp"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 1004
+[LUA-print] -     "y"          = 988
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 916
+[LUA-print] -     "y"                = 475
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 999
+[LUA-print] -     "y"                = 472
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 1086
+[LUA-print] -     "y"                = 475
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 1166
+[LUA-print] -     "y"                = 479
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 541
+[LUA-print] -     "y"                = 267
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 619
+[LUA-print] -     "y"                = 250
+[LUA-print] - }
+[LUA-print] save data filename "/Users/imbahom_mbp/Documents/quick-3.3/quick/samples/towerdefense/src/maps/MapA0002Data.lua" [2015-05-07 17:06:58]
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "radius" = 32
+[LUA-print] -     "tag"    = 0
+[LUA-print] -     "x"      = 1490
+[LUA-print] -     "y"      = 1100
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "radius" = 38
+[LUA-print] -     "tag"    = 0
+[LUA-print] -     "x"      = 542
+[LUA-print] -     "y"      = 1111
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 454
+[LUA-print] -     "y"                = 465
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 693
+[LUA-print] -     "y"                = 246
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 901
+[LUA-print] -     "y"                = 250
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 982
+[LUA-print] -     "y"                = 265
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 1069
+[LUA-print] -     "y"                = 275
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 674
+[LUA-print] -     "y"                = 708
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 782
+[LUA-print] -     "y"                = 686
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 886
+[LUA-print] -     "y"                = 703
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 1121
+[LUA-print] -     "y"                = 718
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 1369
+[LUA-print] -     "y"                = 597
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 559
+[LUA-print] -     "y"                = 473
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 436
+[LUA-print] -     "y"                = 722
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "IncreaseHp"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 132
+[LUA-print] -     "y"          = 960
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "Building01"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 93
+[LUA-print] -     "y"          = 364
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "Building01"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 1487
+[LUA-print] -     "y"          = 290
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 660
+[LUA-print] -     "y"                = 466
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "IncreaseHp"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 1004
+[LUA-print] -     "y"          = 988
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 916
+[LUA-print] -     "y"                = 475
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 999
+[LUA-print] -     "y"                = 472
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 1086
+[LUA-print] -     "y"                = 475
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 1166
+[LUA-print] -     "y"                = 479
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 541
+[LUA-print] -     "y"                = 267
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 619
+[LUA-print] -     "y"                = 250
+[LUA-print] - }
+[LUA-print] save data filename "/Users/imbahom_mbp/Documents/quick-3.3/quick/samples/towerdefense/src/maps/MapA0002Data.lua" [2015-05-07 17:07:02]
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "radius" = 32
+[LUA-print] -     "tag"    = 0
+[LUA-print] -     "x"      = 1490
+[LUA-print] -     "y"      = 1100
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "radius" = 38
+[LUA-print] -     "tag"    = 0
+[LUA-print] -     "x"      = 542
+[LUA-print] -     "y"      = 1111
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 454
+[LUA-print] -     "y"                = 465
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 693
+[LUA-print] -     "y"                = 246
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 901
+[LUA-print] -     "y"                = 250
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 982
+[LUA-print] -     "y"                = 265
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 1069
+[LUA-print] -     "y"                = 275
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 674
+[LUA-print] -     "y"                = 708
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 782
+[LUA-print] -     "y"                = 686
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 886
+[LUA-print] -     "y"                = 703
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 1121
+[LUA-print] -     "y"                = 718
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 1369
+[LUA-print] -     "y"                = 597
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 559
+[LUA-print] -     "y"                = 473
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 436
+[LUA-print] -     "y"                = 722
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "IncreaseHp"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 132
+[LUA-print] -     "y"          = 960
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "Building01"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 93
+[LUA-print] -     "y"          = 364
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "Building01"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 1487
+[LUA-print] -     "y"          = 290
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 660
+[LUA-print] -     "y"                = 466
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "defineId"   = "IncreaseHp"
+[LUA-print] -     "flipSprite" = false
+[LUA-print] -     "tag"        = 0
+[LUA-print] -     "x"          = 1004
+[LUA-print] -     "y"          = 988
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 916
+[LUA-print] -     "y"                = 475
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 999
+[LUA-print] -     "y"                = 472
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 1086
+[LUA-print] -     "y"                = 475
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower02"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower02L01"
+[LUA-print] -     "x"                = 1166
+[LUA-print] -     "y"                = 479
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 541
+[LUA-print] -     "y"                = 267
+[LUA-print] - }
+[LUA-print] dump from: (tail call): ?
+[LUA-print] - "local object" = {
+[LUA-print] -     "behaviors" = {
+[LUA-print] -         1 = "CampBehavior"
+[LUA-print] -         2 = "CollisionBehavior"
+[LUA-print] -         3 = "DecorateBehavior"
+[LUA-print] -         4 = "DestroyedBehavior"
+[LUA-print] -         5 = "FireBehavior"
+[LUA-print] -         6 = "TowerBehavior"
+[LUA-print] -     }
+[LUA-print] -     "campId"           = 1
+[LUA-print] -     "collisionEnabled" = true
+[LUA-print] -     "decorationsMore" = {
+[LUA-print] -     }
+[LUA-print] -     "defineId"         = "PlayerTower01"
+[LUA-print] -     "flipSprite"       = false
+[LUA-print] -     "tag"              = 0
+[LUA-print] -     "towerId"          = "PlayerTower01L01"
+[LUA-print] -     "x"                = 619
+[LUA-print] -     "y"                = 250
+[LUA-print] - }
+[LUA-print] save data filename "/Users/imbahom_mbp/Documents/quick-3.3/quick/samples/towerdefense/src/maps/MapA0002Data.lua" [2015-05-07 17:07:22]
+[LUA-print] ----------------------------------------
+[LUA-print] LUA ERROR: [string "app/map/behaviors/PathEditorBehavior.lua"]:84: attempt to index field 'debugLayer_' (a nil value)
+
+[LUA-print] 
+stack traceback:
+	[string "app/map/behaviors/PathEditorBehavior.lua"]:84: in function <[string "app/map/behaviors/PathEditorBehavior.lua"]:73>
+	(tail call): ?
+	[string "editor/PathTool.lua"]:67: in function 'setCurrentPath'
+	[string "editor/PathTool.lua"]:46: in function 'selected'
+	[string "editor/Toolbar.lua"]:64: in function 'onButtonTap'
+	[string "editor/Toolbar.lua"]:100: in function '?'
+	[string "framework/cc/components/behavior/EventProtocol.lua"]:59: in function <[string "framework/cc/components/behavior/EventProtocol.lua"]:38>
+	(tail call): ?
+	[string "framework/cc/ui/UICheckBoxButton.lua"]:180: in function <[string "framework/cc/ui/UICheckBoxButton.lua"]:155>
+	(tail call): ?
+	[string "framework/cocos2dx/NodeEx.lua"]:394: in function <[string "framework/cocos2dx/NodeEx.lua"]:348>
+[LUA-print] ----------------------------------------
+[LUA-print] ----------------------------------------
+[LUA-print] LUA ERROR: [string "editor/PathTool.lua"]:50: invalid 'cobj' in function 'lua_cocos2dx_Node_setVisible'
+
+[LUA-print] 
+stack traceback:
+	[C]: in function 'setVisible'
+	[string "editor/PathTool.lua"]:50: in function 'selected'
+	[string "editor/Toolbar.lua"]:64: in function 'onButtonTap'
+	[string "editor/Toolbar.lua"]:100: in function '?'
+	[string "framework/cc/components/behavior/EventProtocol.lua"]:59: in function <[string "framework/cc/components/behavior/EventProtocol.lua"]:38>
+	(tail call): ?
+	[string "framework/cc/ui/UICheckBoxButton.lua"]:180: in function <[string "framework/cc/ui/UICheckBoxButton.lua"]:155>
+	(tail call): ?
+	[string "framework/cocos2dx/NodeEx.lua"]:394: in function <[string "framework/cocos2dx/NodeEx.lua"]:348>
+[LUA-print] ----------------------------------------
+[LUA-print] ----------------------------------------
+[LUA-print] LUA ERROR: [string "editor/PathTool.lua"]:50: invalid 'cobj' in function 'lua_cocos2dx_Node_setVisible'
+
+[LUA-print] 
+stack traceback:
+	[C]: in function 'setVisible'
+	[string "editor/PathTool.lua"]:50: in function 'selected'
+	[string "editor/Toolbar.lua"]:64: in function 'onButtonTap'
+	[string "editor/Toolbar.lua"]:100: in function '?'
+	[string "framework/cc/components/behavior/EventProtocol.lua"]:59: in function <[string "framework/cc/components/behavior/EventProtocol.lua"]:38>
+	(tail call): ?
+	[string "framework/cc/ui/UICheckBoxButton.lua"]:180: in function <[string "framework/cc/ui/UICheckBoxButton.lua"]:155>
+	(tail call): ?
+	[string "framework/cocos2dx/NodeEx.lua"]:394: in function <[string "framework/cocos2dx/NodeEx.lua"]:348>
+[LUA-print] ----------------------------------------
+[LUA-print] ----------------------------------------
+[LUA-print] LUA ERROR: [string "editor/PathTool.lua"]:50: invalid 'cobj' in function 'lua_cocos2dx_Node_setVisible'
+
+[LUA-print] 
+stack traceback:
+	[C]: in function 'setVisible'
+	[string "editor/PathTool.lua"]:50: in function 'selected'
+	[string "editor/Toolbar.lua"]:64: in function 'onButtonTap'
+	[string "editor/Toolbar.lua"]:100: in function '?'
+	[string "framework/cc/components/behavior/EventProtocol.lua"]:59: in function <[string "framework/cc/components/behavior/EventProtocol.lua"]:38>
+	(tail call): ?
+	[string "framework/cc/ui/UICheckBoxButton.lua"]:180: in function <[string "framework/cc/ui/UICheckBoxButton.lua"]:155>
+	(tail call): ?
+	[string "framework/cocos2dx/NodeEx.lua"]:394: in function <[string "framework/cocos2dx/NodeEx.lua"]:348>
+[LUA-print] ----------------------------------------

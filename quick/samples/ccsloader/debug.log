@@ -1,0 +1,3993 @@
+
+{
+	gl.supports_vertex_array_object: true
+	cocos2d.x.version: quick-cocos2d-x 3.3
+	gl.vendor: NVIDIA Corporation
+	gl.supports_PVRTC: false
+	gl.renderer: NVIDIA GeForce GT 750M OpenGL Engine
+	cocos2d.x.compiled_with_profiler: false
+	gl.max_texture_size: 16384
+	gl.supports_ETC1: false
+	gl.supports_BGRA8888: false
+	cocos2d.x.build_type: DEBUG
+	gl.supports_discard_framebuffer: false
+	gl.supports_NPOT: true
+	gl.supports_S3TC: true
+	gl.version: 2.1 NVIDIA-10.2.7 310.41.25f01
+	gl.supports_ATITC: false
+	gl.max_texture_units: 16
+	cocos2d.x.compiled_with_gl_state_cache: true
+}
+
+
+Quick-Cocos2d-x C++ support ready.
+------------------------------------------------
+LOAD LUA FILE: /Users/imbahom_mbp/Documents/quick-3.3/quick/samples/ccsloader/src/main.lua
+------------------------------------------------
+[LUA-print] ===========================================================
+[LUA-print]               LOAD QUICK FRAMEWORK
+[LUA-print] ===========================================================
+[LUA-print] [INFO] 
+[LUA-print] [INFO] # DEBUG                        = 1
+[LUA-print] [INFO] #
+[LUA-print] [INFO] # device.platform              = mac
+[LUA-print] [INFO] # device.model                 = unknown
+[LUA-print] [INFO] # device.language              = cn
+[LUA-print] [INFO] # device.writablePath          = /Users/imbahom_mbp/Documents/quick-3.3/quick/samples/ccsloader/
+[LUA-print] [INFO] # device.directorySeparator    = /
+[LUA-print] [INFO] # device.pathSeparator         = :
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[LUA-print] [INFO] # display.widthInPixels        = 960.00
+[LUA-print] [INFO] # display.heightInPixels       = 640.00
+[LUA-print] [INFO] # display.contentScaleFactor   = 1.00
+[LUA-print] [INFO] # display.width                = 960.00
+[LUA-print] [INFO] # display.height               = 640.00
+[LUA-print] [INFO] # display.cx                   = 480.00
+[LUA-print] [INFO] # display.cy                   = 320.00
+[LUA-print] [INFO] # display.left                 = 0.00
+[LUA-print] [INFO] # display.right                = 960.00
+[LUA-print] [INFO] # display.top                  = 640.00
+[LUA-print] [INFO] # display.bottom               = 0.00
+[LUA-print] [INFO] # display.c_left               = -480.00
+[LUA-print] [INFO] # display.c_right              = 480.00
+[LUA-print] [INFO] # display.c_top                = 320.00
+[LUA-print] [INFO] # display.c_bottom             = -320.00
+[LUA-print] [INFO] #
+cocos2d: padding: 0,0,0,0
+
+cocos2d: padding: 0,0,0,0
+
+cocos2d: padding: 0,0,0,0
+
+cocos2d: padding: 0,0,0,0
+
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene login button clicked
+cocos2d: padding: 0,0,0,0
+
+cocos2d: padding: 0,0,0,0
+
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+[LUA-print] CCSSample3Scene scroll
+cocos2d: padding: 0,0,0,0
+
+cocos2d: padding: 0,0,0,0
+
+cocos2d: padding: 0,0,0,0
+
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene rank scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSample4Scene shop scroll
+[LUA-print] CCSSceneLoader - not support classname:CCBackgroundAudio
+
+[LUA-print] CCSSceneLoader - not support classname:CCBackgroundAudio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get data from file(particle/particleTexture.png) failed!
+
+textureSize = 0
+classname = Node
+size = 3
+classname = ProjectNode
+filePath = BattleTop.csb
+textureSize = 0
+classname = Node
+size = 1
+classname = Panel
+callBackName  cannot be found
+size = 1
+classname = Panel
+callBackName  cannot be found
+size = 7
+classname = Button
+callBackName  cannot be found
+size = 0
+child = 0x7f9c651f6400
+classname = Button
+callBackName  cannot be found
+size = 0
+child = 0x7f9c651eee00
+classname = ImageView
+callBackName  cannot be found
+size = 2
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c6516c400
+classname = ImageView
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65212200
+child = 0x7f9c65143c00
+classname = ImageView
+callBackName  cannot be found
+size = 2
+classname = Text
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65163800
+classname = ImageView
+callBackName  cannot be found
+size = 1
+classname = Text
+callBackName  cannot be found
+size = 0
+child = 0x7f9c651f0e00
+child = 0x7f9c64883c00
+child = 0x7f9c65199400
+classname = ImageView
+callBackName  cannot be found
+size = 2
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65151800
+classname = ImageView
+
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65152600
+child = 0x7f9c651d9000
+classname = ImageView
+
+callBackName  cannot be found
+size = 2
+classname = ImageView
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65157c00
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65169400
+child = 0x7f9c64162c00
+classname = ImageView
+callBackName  cannot be found
+size = 2
+classname = ImageView
+callBackName  cannot be found
+size = 0
+child = 0x7f9c6520ae00
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c651f9200
+child = 0x7f9c6520d800
+child = 0x7f9c6513ec00
+child = 0x7f9c65010a00
+size = 0
+child = 0x7f9c6b8f0ff0
+classname = ProjectNode
+filePath = Battle.csb
+textureSize = 0
+classname = Node
+size = 3
+classname = Panel
+callBackName  cannot be found
+size = 1
+classname = Panel
+callBackName  cannot be found
+size = 1
+classname = GameMap
+cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [9] to [13].
+cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [13] to [18].
+cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [18] to [25].
+size = 0
+child = 0x7f9c6a642090
+child = 0x7f9c651d0a00
+child = 0x7f9c65208600
+classname = ProjectNode
+filePath = generalshark.csb
+textureSize = 0
+classname = Node
+size = 43
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c651c8000
+child = 0x7f9c6a4e2cc0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c651c7000
+child = 0x7f9c6b8ed250
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c651a2200
+child = 0x7f9c6b8f3b90
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c651a3600
+child = 0x7f9c6b8f7260
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c651a3c00
+child = 0x7f9c6b8f7e90
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c651a4200
+child = 0x7f9c6b8f8de0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6527c800
+child = 0x7f9c6b8f9990
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c64154000
+child = 0x7f9c6a644850
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65177c00
+child = 0x7f9c6b8fa510
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6528c400
+child = 0x7f9c6b8fb4c0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6480aa00
+child = 0x7f9c6a7507c0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65201000
+child = 0x7f9c6ba00240
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6514e200
+child = 0x7f9c6ba011c0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6514f600
+child = 0x7f9c6ba02120
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c651df800
+child = 0x7f9c6ba02d10
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c64158400
+child = 0x7f9c6a6429b0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c64011000
+child = 0x7f9c6a643770
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c651e0c00
+child = 0x7f9c6ba03840
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c651e2000
+child = 0x7f9c6ba04740
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6526d400
+child = 0x7f9c6ba05550
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6526e800
+child = 0x7f9c6ba06230
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c64981000
+child = 0x7f9c6a750be0
+classname = SingleNode
+size = 4
+classname = Sprite
+size = 0
+child = 0x7f9c65215c00
+classname = Sprite
+size = 0
+child = 0x7f9c65217000
+classname = Sprite
+size = 0
+child = 0x7f9c65218400
+classname = Sprite
+size = 0
+child = 0x7f9c65187e00
+child = 0x7f9c6ba074c0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65188c00
+child = 0x7f9c6ba09e00
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65277600
+child = 0x7f9c6ba0acd0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65277c00
+child = 0x7f9c6ba0b000
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65278200
+child = 0x7f9c6ba0b330
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65278800
+child = 0x7f9c6ba0b660
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65278e00
+child = 0x7f9c6ba0b990
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65279400
+child = 0x7f9c6ba0bcc0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65279a00
+child = 0x7f9c6ba0bff0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6527a000
+child = 0x7f9c6ba0c320
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6527a600
+child = 0x7f9c6ba0c650
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6527ac00
+child = 0x7f9c6ba0cb80
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6527b200
+child = 0x7f9c6ba0ceb0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65286e00
+child = 0x7f9c6ba0d1e0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65288200
+child = 0x7f9c6ba0de20
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65289600
+child = 0x7f9c6ba0ea60
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65289c00
+child = 0x7f9c6ba0f070
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6528a200
+child = 0x7f9c6ba0f3a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6528a800
+child = 0x7f9c6ba0f6d0
+classname = SingleNode
+size = 0
+child = 0x7f9c6ba0fa00
+classname = SingleNode
+size = 0
+child = 0x7f9c6ba0fd30
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+size = 1
+classname = Sprite
+size = 2
+classname = Sprite
+size = 0
+child = 0x7f9c652a2c00
+classname = LoadingBar
+callBackName  cannot be found
+size = 0
+child = 0x7f9c6601ce00
+child = 0x7f9c652a1e00
+child = 0x7f9c6a4e2930
+classname = ProjectNode
+filePath = tentacle.csb
+textureSize = 0
+classname = Node
+size = 27
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652a5e00
+child = 0x7f9c6bb08df0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652a8200
+child = 0x7f9c6bb09bd0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652c0000
+child = 0x7f9c6bb0a3e0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652d3c00
+child = 0x7f9c6bb0aed0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652d1800
+child = 0x7f9c6bb0bb20
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652c2200
+child = 0x7f9c6bb0c5c0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652c1c00
+child = 0x7f9c6bb0d100
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652d4800
+child = 0x7f9c6bb0db10
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652d5c00
+child = 0x7f9c6bb0e7e0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652d6800
+child = 0x7f9c6bb0f2f0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c660c7e00
+child = 0x7f9c6686cfd0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652d8800
+child = 0x7f9c6bb0fe90
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652d9c00
+child = 0x7f9c6bb10a00
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6531ba00
+child = 0x7f9c6bb11600
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c641a0a00
+child = 0x7f9c6a6461a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6531ce00
+child = 0x7f9c6bb12050
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65326c00
+child = 0x7f9c6bb13090
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6609f800
+child = 0x7f9c6686a9a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6531e200
+child = 0x7f9c6bb13700
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652da200
+child = 0x7f9c6bb144c0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652da800
+child = 0x7f9c6bb150a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65320400
+child = 0x7f9c6bb15f90
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65325800
+child = 0x7f9c6bb16a30
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65321800
+child = 0x7f9c6bb17640
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65322600
+child = 0x7f9c6bb180d0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65323200
+child = 0x7f9c6bb18cc0
+classname = SingleNode
+size = 0
+child = 0x7f9c6bb19950
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+size = 1
+classname = Sprite
+size = 2
+classname = Sprite
+size = 0
+child = 0x7f9c652dc600
+classname = LoadingBar
+callBackName  cannot be found
+size = 0
+child = 0x7f9c652c2800
+child = 0x7f9c65324c00
+child = 0x7f9c6bb08ac0
+size = 0
+child = 0x7f9c6a4c36f0
+classname = ProjectNode
+filePath = BattleBottom.csb
+textureSize = 0
+classname = Node
+size = 1
+classname = Panel
+callBackName  cannot be found
+size = 1
+classname = Panel
+callBackName  cannot be found
+size = 1
+classname = Sprite
+size = 5
+classname = Panel
+callBackName  cannot be found
+size = 2
+classname = ProjectNode
+filePath = captain_jack.csb
+textureSize = 0
+classname = Node
+size = 20
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652c3a00
+child = 0x7f9c6bb5fed0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c66147e00
+child = 0x7f9c6686c420
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652c6400
+child = 0x7f9c6bb60810
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652cea00
+child = 0x7f9c6bb61a30
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652cf800
+child = 0x7f9c6bb62750
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c64916800
+child = 0x7f9c6a746ce0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652c8600
+child = 0x7f9c6bb63060
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652c9a00
+child = 0x7f9c6bb640f0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652cbe00
+child = 0x7f9c6bb64d20
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652cd200
+child = 0x7f9c6bb65e70
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65313800
+child = 0x7f9c6bb669f0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65314c00
+child = 0x7f9c6bb676f0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65316000
+child = 0x7f9c6bb68610
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65316e00
+child = 0x7f9c6bb69070
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c649b4000
+child = 0x7f9c6a773b70
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6609dc00
+child = 0x7f9c668bacb0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c640b9000
+child = 0x7f9c6a646cf0
+classname = SingleNode
+size = 3
+classname = Sprite
+size = 0
+child = 0x7f9c65318200
+classname = Sprite
+size = 0
+child = 0x7f9c65319600
+classname = Sprite
+size = 0
+child = 0x7f9c65319c00
+child = 0x7f9c6bb69b20
+classname = SingleNode
+size = 12
+classname = Sprite
+size = 0
+child = 0x7f9c64173000
+classname = Sprite
+size = 0
+child = 0x7f9c652e9000
+classname = Sprite
+size = 0
+child = 0x7f9c652df200
+classname = Sprite
+size = 0
+child = 0x7f9c652e0600
+classname = Sprite
+size = 0
+child = 0x7f9c66149800
+classname = Sprite
+size = 0
+child = 0x7f9c652e5c00
+classname = Sprite
+size = 0
+child = 0x7f9c652e7000
+classname = Sprite
+size = 0
+child = 0x7f9c652e7600
+classname = Sprite
+size = 0
+child = 0x7f9c652e0c00
+classname = Sprite
+size = 0
+child = 0x7f9c652e1200
+classname = Sprite
+size = 0
+child = 0x7f9c6614a600
+classname = Sprite
+size = 0
+child = 0x7f9c6614b400
+child = 0x7f9c6a6479f0
+classname = SingleNode
+size = 0
+child = 0x7f9c6bb6ec90
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+size = 0
+child = 0x7f9c6bb5fba0
+classname = Sprite
+size = 2
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c652e2600
+classname = LoadingBar
+callBackName  cannot be found
+size = 1
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65328e00
+child = 0x7f9c652ebe00
+child = 0x7f9c652e3e00
+child = 0x7f9c660a7600
+classname = Panel
+callBackName  cannot be found
+size = 2
+classname = ProjectNode
+filePath = huchey.csb
+textureSize = 0
+classname = Node
+size = 30
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6533f400
+child = 0x7f9c6bbcfd90
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6533fa00
+child = 0x7f9c6bbd0c90
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6614ba00
+child = 0x7f9c6b941950
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65340e00
+child = 0x7f9c6bbd1c40
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65342800
+child = 0x7f9c6bbd2c30
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c640f6a00
+child = 0x7f9c6a648750
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6409a000
+child = 0x7f9c6a649fa0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652ede00
+child = 0x7f9c6bbd3700
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c652eea00
+child = 0x7f9c6bbd42a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6530f600
+child = 0x7f9c6bbd5060
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65344000
+child = 0x7f9c6bbd5cc0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65344600
+child = 0x7f9c6bbd6b60
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65312e00
+child = 0x7f9c6bbd7830
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65311200
+child = 0x7f9c6bbd81b0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65345400
+child = 0x7f9c6bbd8d70
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65346800
+child = 0x7f9c6bbd99a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6530da00
+child = 0x7f9c6bbda5d0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6417aa00
+child = 0x7f9c6a64a9d0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65347600
+child = 0x7f9c6bbdb2c0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c64945200
+child = 0x7f9c6a748310
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65349a00
+child = 0x7f9c6bbdc170
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6534ae00
+child = 0x7f9c6bbdcef0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6534bc00
+child = 0x7f9c6bbddc20
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6534f400
+child = 0x7f9c6bbde930
+classname = SingleNode
+size = 3
+classname = Sprite
+size = 0
+child = 0x7f9c6534fa00
+classname = Sprite
+size = 0
+child = 0x7f9c65350e00
+classname = Sprite
+size = 0
+child = 0x7f9c65352200
+child = 0x7f9c6bbdec60
+classname = SingleNode
+size = 6
+classname = Sprite
+size = 0
+child = 0x7f9c652ef800
+classname = Sprite
+size = 0
+child = 0x7f9c65354400
+classname = Sprite
+size = 0
+child = 0x7f9c6614c800
+classname = Sprite
+size = 0
+child = 0x7f9c65355800
+classname = Sprite
+size = 0
+child = 0x7f9c6613ce00
+classname = Sprite
+size = 0
+child = 0x7f9c652f3800
+child = 0x7f9c6bbe0890
+classname = SingleNode
+size = 5
+classname = Sprite
+size = 0
+child = 0x7f9c6493d200
+classname = Sprite
+size = 0
+child = 0x7f9c652f2600
+classname = Sprite
+size = 0
+child = 0x7f9c652f3200
+classname = Sprite
+size = 0
+child = 0x7f9c64892200
+classname = Sprite
+size = 0
+child = 0x7f9c652f0c00
+child = 0x7f9c6a74d710
+classname = SingleNode
+size = 5
+classname = Sprite
+size = 0
+child = 0x7f9c652f4e00
+classname = Sprite
+size = 0
+child = 0x7f9c652f8400
+classname = Sprite
+size = 0
+child = 0x7f9c64859000
+classname = Sprite
+size = 0
+child = 0x7f9c6530c800
+classname = Sprite
+size = 0
+child = 0x7f9c640fe600
+child = 0x7f9c6bbe4a30
+classname = SingleNode
+size = 6
+classname = Sprite
+size = 0
+child = 0x7f9c652f6a00
+classname = Sprite
+size = 0
+child = 0x7f9c65358600
+classname = Sprite
+size = 0
+child = 0x7f9c652a7a00
+classname = Sprite
+size = 0
+child = 0x7f9c6535b600
+classname = Sprite
+size = 0
+child = 0x7f9c6535ca00
+classname = Sprite
+size = 0
+child = 0x7f9c6535de00
+child = 0x7f9c6bbe6430
+classname = SingleNode
+size = 0
+child = 0x7f9c6bbea0b0
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+size = 0
+child = 0x7f9c6bbcfa30
+classname = Sprite
+size = 2
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65360a00
+classname = LoadingBar
+callBackName  cannot be found
+size = 1
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c6532e800
+child = 0x7f9c6532d600
+child = 0x7f9c6535fa00
+child = 0x7f9c6532bc00
+classname = Panel
+callBackName  cannot be found
+size = 2
+classname = ProjectNode
+filePath = jones.csb
+textureSize = 0
+classname = Node
+size = 19
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65309200
+child = 0x7f9c6bc47ce0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65309800
+child = 0x7f9c6bc48da0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c64070800
+child = 0x7f9c6a64c040
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6530c200
+child = 0x7f9c6bc498c0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6530b400
+child = 0x7f9c6bc4a740
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65338200
+child = 0x7f9c6bc4b2a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65334000
+child = 0x7f9c6bc4bf50
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6490a000
+child = 0x7f9c63d23ce0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65339600
+child = 0x7f9c6bc4cc90
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65335400
+child = 0x7f9c6bc4d8b0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65336800
+child = 0x7f9c6bc4e620
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6415f200
+child = 0x7f9c6a64cd50
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6415f800
+child = 0x7f9c6a64d0b0
+classname = SingleNode
+size = 15
+classname = Sprite
+size = 0
+child = 0x7f9c6533ec00
+classname = Sprite
+size = 0
+child = 0x7f9c65363a00
+classname = Sprite
+size = 0
+child = 0x7f9c65339c00
+classname = Sprite
+size = 0
+child = 0x7f9c6533a200
+classname = Sprite
+size = 0
+child = 0x7f9c6533a800
+classname = Sprite
+size = 0
+child = 0x7f9c6533ae00
+classname = Sprite
+size = 0
+child = 0x7f9c6533b400
+classname = Sprite
+size = 0
+child = 0x7f9c6533ba00
+classname = Sprite
+size = 0
+child = 0x7f9c6533c000
+classname = Sprite
+size = 0
+child = 0x7f9c6533c600
+classname = Sprite
+size = 0
+child = 0x7f9c6533cc00
+classname = Sprite
+size = 0
+child = 0x7f9c6533d200
+classname = Sprite
+size = 0
+child = 0x7f9c6533d800
+classname = Sprite
+size = 0
+child = 0x7f9c6533de00
+classname = Sprite
+size = 0
+child = 0x7f9c65367800
+child = 0x7f9c6bc4f310
+classname = SingleNode
+size = 3
+classname = Sprite
+size = 0
+child = 0x7f9c65367e00
+classname = Sprite
+size = 0
+child = 0x7f9c6534e600
+classname = Sprite
+size = 0
+child = 0x7f9c65365600
+child = 0x7f9c6bc50160
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65367200
+child = 0x7f9c6bc52380
+classname = SingleNode
+size = 13
+classname = Sprite
+size = 0
+child = 0x7f9c6536e600
+classname = Sprite
+size = 0
+child = 0x7f9c65369200
+classname = Sprite
+size = 0
+child = 0x7f9c64989200
+classname = Sprite
+size = 0
+child = 0x7f9c65370800
+classname = Sprite
+size = 0
+child = 0x7f9c65369800
+classname = Sprite
+size = 0
+child = 0x7f9c6536ac00
+classname = Sprite
+size = 0
+child = 0x7f9c6536c000
+classname = Sprite
+size = 0
+child = 0x7f9c6536d400
+classname = Sprite
+size = 0
+child = 0x7f9c6536e000
+classname = Sprite
+size = 0
+child = 0x7f9c65392e00
+classname = Sprite
+size = 0
+child = 0x7f9c65394200
+classname = Sprite
+size = 0
+child = 0x7f9c66135e00
+classname = Sprite
+size = 0
+child = 0x7f9c65395600
+child = 0x7f9c6bc526b0
+classname = SingleNode
+size = 4
+classname = Sprite
+size = 0
+child = 0x7f9c65396a00
+classname = Sprite
+size = 0
+child = 0x7f9c65397e00
+classname = Sprite
+size = 0
+child = 0x7f9c65399200
+classname = Sprite
+size = 0
+child = 0x7f9c6539a600
+child = 0x7f9c6bc58b80
+classname = SingleNode
+size = 0
+child = 0x7f9c6bc5b3b0
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+size = 0
+child = 0x7f9c6bc47980
+classname = Sprite
+size = 2
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c652f8a00
+classname = LoadingBar
+callBackName  cannot be found
+size = 1
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c652fca00
+child = 0x7f9c652fb800
+child = 0x7f9c6539ca00
+child = 0x7f9c65331600
+classname = Panel
+callBackName  cannot be found
+size = 2
+classname = ProjectNode
+filePath = pharaoh.csb
+textureSize = 0
+classname = Node
+size = 17
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653a9a00
+child = 0x7f9c6bcac2a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653aae00
+child = 0x7f9c6bcad0e0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653ac200
+child = 0x7f9c6bcae010
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6490a600
+child = 0x7f9c6a707f30
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653ad600
+child = 0x7f9c6bcaeb70
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653ae400
+child = 0x7f9c6bcafa20
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653b0000
+child = 0x7f9c6bcb0880
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65307a00
+child = 0x7f9c6bcb1650
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65301c00
+child = 0x7f9c6bcb23d0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65304000
+child = 0x7f9c6bcb2f70
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6485b200
+child = 0x7f9c6a2a8610
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65307200
+child = 0x7f9c6bcb3a80
+classname = SingleNode
+size = 4
+classname = Sprite
+size = 0
+child = 0x7f9c65306600
+classname = Sprite
+size = 0
+child = 0x7f9c65364800
+classname = Sprite
+size = 0
+child = 0x7f9c6537e000
+classname = Sprite
+size = 0
+child = 0x7f9c6485c000
+child = 0x7f9c6bcb4a60
+classname = SingleNode
+size = 7
+classname = Sprite
+size = 0
+child = 0x7f9c653b1400
+classname = Sprite
+size = 0
+child = 0x7f9c653b5e00
+classname = Sprite
+size = 0
+child = 0x7f9c653b7200
+classname = Sprite
+size = 0
+child = 0x7f9c653b8600
+classname = Sprite
+size = 0
+child = 0x7f9c6537cc00
+classname = Sprite
+size = 0
+child = 0x7f9c66137200
+classname = Sprite
+size = 0
+child = 0x7f9c6537b200
+child = 0x7f9c6bcb68a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653b3000
+child = 0x7f9c6bcba160
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653b4400
+child = 0x7f9c6bcbae00
+classname = SingleNode
+size = 0
+child = 0x7f9c6bcbbae0
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+size = 0
+child = 0x7f9c6bcabf40
+classname = Sprite
+size = 2
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c653b5800
+classname = LoadingBar
+callBackName  cannot be found
+size = 1
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65376a00
+child = 0x7f9c65375800
+child = 0x7f9c653b5200
+child = 0x7f9c652ff800
+classname = Panel
+callBackName  cannot be found
+size = 2
+classname = ProjectNode
+filePath = cat_queen.csb
+textureSize = 0
+classname = Node
+size = 21
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6538d600
+child = 0x7f9c6bcf8c70
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6538dc00
+child = 0x7f9c6bcf9d70
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653a8a00
+child = 0x7f9c6bcfa7a0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6538f800
+child = 0x7f9c6bcfb480
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6613ba00
+child = 0x7f9c6b947430
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65390c00
+child = 0x7f9c6bd00130
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6613c000
+child = 0x7f9c6b9483b0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65391200
+child = 0x7f9c6bd00ae0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c6539e800
+child = 0x7f9c6bd01950
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653a6400
+child = 0x7f9c6bd02850
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653a7800
+child = 0x7f9c6bd03380
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c65304e00
+child = 0x7f9c6bd040a0
+classname = SingleNode
+size = 13
+classname = Sprite
+size = 0
+child = 0x7f9c64995400
+classname = Sprite
+size = 0
+child = 0x7f9c653a1200
+classname = Sprite
+size = 0
+child = 0x7f9c653a2600
+classname = Sprite
+size = 0
+child = 0x7f9c653a3a00
+classname = Sprite
+size = 0
+child = 0x7f9c653a4e00
+classname = Sprite
+size = 0
+child = 0x7f9c64995a00
+classname = Sprite
+size = 0
+child = 0x7f9c653c3a00
+classname = Sprite
+size = 0
+child = 0x7f9c653b8c00
+classname = Sprite
+size = 0
+child = 0x7f9c653ba000
+classname = Sprite
+size = 0
+child = 0x7f9c653bb400
+classname = Sprite
+size = 0
+child = 0x7f9c6613c600
+classname = Sprite
+size = 0
+child = 0x7f9c653a8400
+classname = Sprite
+size = 0
+child = 0x7f9c653c4e00
+child = 0x7f9c6a1f7f90
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653bea00
+child = 0x7f9c6bd0b320
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653bfe00
+child = 0x7f9c6bd0c130
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653c6200
+child = 0x7f9c6bd0cd60
+classname = SingleNode
+size = 3
+classname = Sprite
+size = 0
+child = 0x7f9c653c0400
+classname = Sprite
+size = 0
+child = 0x7f9c64996000
+classname = Sprite
+size = 0
+child = 0x7f9c653ce000
+child = 0x7f9c6bd0d990
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653c6e00
+child = 0x7f9c6bd0eef0
+classname = SingleNode
+size = 1
+classname = Sprite
+size = 0
+child = 0x7f9c653c8200
+child = 0x7f9c6bd0fbb0
+classname = SingleNode
+size = 4
+classname = Sprite
+size = 0
+child = 0x7f9c653c9600
+classname = Sprite
+size = 0
+child = 0x7f9c653caa00
+classname = Sprite
+size = 0
+child = 0x7f9c66138e00
+classname = Sprite
+size = 0
+child = 0x7f9c66139400
+child = 0x7f9c6bd107c0
+classname = SingleNode
+size = 0
+child = 0x7f9c6bd11ac0
+frameType = VisibleFrame
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = VisibleFrame
+visible = 0
+visible = 1
+visible = 0
+frameType = AnchorPointFrame
+frameType = PositionFrame
+frameType = ScaleFrame
+frameType = RotationSkewFrame
+size = 0
+child = 0x7f9c6bcf8910
+classname = Sprite
+size = 2
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c6537fa00
+classname = LoadingBar
+callBackName  cannot be found
+size = 1
+classname = TextAtlas
+callBackName  cannot be found
+size = 0
+child = 0x7f9c65383a00
+child = 0x7f9c65382800
+child = 0x7f9c653cc600
+child = 0x7f9c65379800
+child = 0x7f9c652c5e00
+child = 0x7f9c652c5000
+child = 0x7f9c651cf800
+size = 0
+child = 0x7f9c6bb5ef60
+cocos2d: padding: 0,0,0,0
+cocos2d: padding: 0,0,0,0
+cocos2d: padding: 0,0,0,0
+cocos2d: padding: 0,0,0,0
+filename == DemoLogin.ExportJson
+[LUA-print] CCSSample2Scene editbox input
+[LUA-print] CCSSample2Scene editbox input
+cocos2d: padding: 0,0,0,0
+cocos2d: padding: 0,0,0,0
+filename == DemoMap.ExportJson
+cocos2d: padding: 0,0,0,0
+
+cocos2d: padding: 0,0,0,0
+cocos2d: padding: 0,0,0,0
+cocos2d: padding: 0,0,0,0
+filename == DemoShop.ExportJson
+classname = CCScene
+classname = CCBackgroundAudio
+classname = CCSprite
+classname = CCArmature
+classname = CCArmature
+classname = GUIComponent
+filename == FightScene_1.ExportJson
+classname = CCParticleSystemQuad
+classname = CCSprite
+classname = CCSprite
+1.0.0.0
+classname = CCScene
+classname = CCBackgroundAudio
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCSprite
+classname = CCParticleSystemQuad
+Get data from file(/Users/imbahom_mbp/Documents/quick-3.3/quick/samples/ccsloader/res/GameRPG/particle/particleTexture.png) failed!
+
+1.0.0.0

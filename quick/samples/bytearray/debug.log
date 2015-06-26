@@ -1,0 +1,93 @@
+
+{
+	gl.supports_vertex_array_object: true
+	cocos2d.x.version: quick-cocos2d-x 3.3
+	gl.vendor: NVIDIA Corporation
+	gl.supports_PVRTC: false
+	gl.renderer: NVIDIA GeForce GT 750M OpenGL Engine
+	cocos2d.x.compiled_with_profiler: false
+	gl.max_texture_size: 16384
+	gl.supports_ETC1: false
+	gl.supports_BGRA8888: false
+	cocos2d.x.build_type: DEBUG
+	gl.supports_discard_framebuffer: false
+	gl.supports_NPOT: true
+	gl.supports_S3TC: true
+	gl.version: 2.1 NVIDIA-10.2.7 310.41.25f01
+	gl.supports_ATITC: false
+	gl.max_texture_units: 16
+	cocos2d.x.compiled_with_gl_state_cache: true
+}
+
+
+Quick-Cocos2d-x C++ support ready.
+------------------------------------------------
+LOAD LUA FILE: /Users/imbahom_mbp/Documents/quick-3.3/quick/samples/bytearray/src/main.lua
+------------------------------------------------
+[LUA-print] ===========================================================
+[LUA-print]               LOAD QUICK FRAMEWORK
+[LUA-print] ===========================================================
+[LUA-print] [INFO] 
+[LUA-print] [INFO] # DEBUG                        = 2
+[LUA-print] [INFO] #
+[LUA-print] [INFO] # device.platform              = mac
+[LUA-print] [INFO] # device.model                 = unknown
+[LUA-print] [INFO] # device.language              = cn
+[LUA-print] [INFO] # device.writablePath          = /Users/imbahom_mbp/Documents/quick-3.3/quick/samples/bytearray/
+[LUA-print] [INFO] # device.directorySeparator    = /
+[LUA-print] [INFO] # device.pathSeparator         = :
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[LUA-print] [INFO] # display.widthInPixels        = 960.00
+[LUA-print] [INFO] # display.heightInPixels       = 640.00
+[LUA-print] [INFO] # display.contentScaleFactor   = 1.00
+[LUA-print] [INFO] # display.width                = 960.00
+[LUA-print] [INFO] # display.height               = 640.00
+[LUA-print] [INFO] # display.cx                   = 480.00
+[LUA-print] [INFO] # display.cy                   = 320.00
+[LUA-print] [INFO] # display.left                 = 0.00
+[LUA-print] [INFO] # display.right                = 960.00
+[LUA-print] [INFO] # display.top                  = 640.00
+[LUA-print] [INFO] # display.bottom               = 0.00
+[LUA-print] [INFO] # display.c_left               = -480.00
+[LUA-print] [INFO] # display.c_right              = 480.00
+[LUA-print] [INFO] # display.c_top                = 320.00
+[LUA-print] [INFO] # display.c_bottom             = -320.00
+[LUA-print] [INFO] #
+[LUA-print] [INFO] userdata: 0x7ff115338258 [EventProtocol] addEventListener() - event: CLICKED_EVENT, handle: 1, tag: 
+[LUA-print] [INFO] userdata: 0x7ff1151e00c8 [EventProtocol] addEventListener() - event: CLICKED_EVENT, handle: 1, tag: 
+[LUA-print] [INFO] userdata: 0x7ff115201f78 [EventProtocol] addEventListener() - event: CLICKED_EVENT, handle: 1, tag: 
+[LUA-print] [INFO] userdata: 0x7ff115338258 [EventProtocol] dispatchEvent() - event PRESSED_EVENT
+[LUA-print] [INFO] userdata: 0x7ff115338258 [EventProtocol] dispatchEvent() - event RELEASE_EVENT
+[LUA-print] [INFO] userdata: 0x7ff115338258 [EventProtocol] dispatchEvent() - event CLICKED_EVENT
+[LUA-print] [INFO] userdata: 0x7ff115338258 [EventProtocol] dispatchEvent() - dispatching event CLICKED_EVENT to listener 1
+[LUA-print] ba1.len:	17
+[LUA-print] ba1.readByte:	89
+[LUA-print] ba1.readInt:	11
+[LUA-print] ba1.readShort:	1101
+[LUA-print] ba1.readString:	
+[LUA-print] ba1.readString:	中文
+[LUA-print] ba1.available:	0
+[LUA-print] ba1.toString(16):	59 0B 00 00 00 4D 04 00 00 06 00 E4 B8 AD E6 96 87 	17
+[LUA-print] ba1.toString(10):	089 011 000 000 000 077 004 000 000 006 000 228 184 173 230 150 135 	17
+[LUA-print] ba2.toString(10):	089 011 000 000 000 077 004 000 000 006 000 228 184 173 230 150 135 	17
+[LUA-print] __ba3:readUInt:	200
+[LUA-print] [INFO] userdata: 0x7ff1151e00c8 [EventProtocol] dispatchEvent() - event PRESSED_EVENT
+[LUA-print] [INFO] userdata: 0x7ff1151e00c8 [EventProtocol] dispatchEvent() - event RELEASE_EVENT
+[LUA-print] [INFO] userdata: 0x7ff1151e00c8 [EventProtocol] dispatchEvent() - event CLICKED_EVENT
+[LUA-print] [INFO] userdata: 0x7ff1151e00c8 [EventProtocol] dispatchEvent() - dispatching event CLICKED_EVENT to listener 1
+[LUA-print] test2
+[LUA-print] 00 00 00 22 	4
+[LUA-print] buf all bytes:00 00 00 22 , 4
+[LUA-print] [INFO] userdata: 0x7ff115201f78 [EventProtocol] dispatchEvent() - event PRESSED_EVENT
+[LUA-print] [INFO] userdata: 0x7ff115201f78 [EventProtocol] dispatchEvent() - event RELEASE_EVENT
+[LUA-print] [INFO] userdata: 0x7ff115201f78 [EventProtocol] dispatchEvent() - event CLICKED_EVENT
+[LUA-print] [INFO] userdata: 0x7ff115201f78 [EventProtocol] dispatchEvent() - dispatching event CLICKED_EVENT to listener 1
+[LUA-print] test3
+[LUA-print] 8
+[LUA-print] 8
+[LUA-print] 4
+[LUA-print] 4
