@@ -4,16 +4,16 @@
 -- @parent_module cc
 
 --------------------------------
+-- 
+-- @function [parent=#Device] getClipboardText 
+-- @param self
+-- @return string#string ret (return value: string)
+        
+--------------------------------
 -- To enable or disable accelerometer.
 -- @function [parent=#Device] setAccelerometerEnabled 
 -- @param self
 -- @param #bool isEnabled
-        
---------------------------------
--- 
--- @function [parent=#Device] setKeepScreenOn 
--- @param self
--- @param #bool value
         
 --------------------------------
 -- Sets the interval of accelerometer.
@@ -22,10 +22,22 @@
 -- @param #float interval
         
 --------------------------------
+-- 
+-- @function [parent=#Device] setClipboardText 
+-- @param self
+-- @param #string text
+        
+--------------------------------
 -- Gets the DPI of device<br>
 -- return The DPI of device.
 -- @function [parent=#Device] getDPI 
 -- @param self
 -- @return int#int ret (return value: int)
+        
+--------------------------------
+-- 
+-- @function [parent=#Device] setKeepScreenOn 
+-- @param self
+-- @param #bool value
         
 return nil
