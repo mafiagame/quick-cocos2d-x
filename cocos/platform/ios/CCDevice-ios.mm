@@ -179,6 +179,16 @@ void Device::setAccelerometerInterval(float interval)
     [[CCAccelerometerDispatcher sharedAccelerometerDispather] setAccelerometerInterval:interval];
 }
 
+void Device::setClipboardText(const std::string& text)
+{
+    [UIPasteboard generalPasteboard].string = [[NSString alloc] initWithCString:text.c_str() encoding:NSUTF8StringEncoding];
+}
+
+std::string Device::getClipboardText()
+{
+    return [[UIPasteboard generalPasteboard].string cStringUsingEncoding: NSUTF8StringEncoding];
+}
+
 typedef struct
 {
     unsigned int height;

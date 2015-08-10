@@ -50,6 +50,17 @@ void Device::setAccelerometerInterval(float interval)
 
 }
 
+void Device::setClipboardText(const std::string& text)
+{
+    [[NSPasteboard generalPasteboard] clearContents];
+    [[NSPasteboard generalPasteboard] setString:[[NSString alloc] initWithCString:text.c_str() encoding:NSUTF8StringEncoding]  forType:NSStringPboardType];
+}
+
+std::string Device::getClipboardText()
+{
+    return [[[NSPasteboard generalPasteboard] stringForType:NSStringPboardType] cStringUsingEncoding:NSUTF8StringEncoding];
+}
+
 typedef struct
 {
     int height;
