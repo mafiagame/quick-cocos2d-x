@@ -369,6 +369,23 @@ public class Cocos2dxHelper {
         SharedPreferences settings = sActivity.getSharedPreferences(Cocos2dxHelper.PREFS_NAME, 0);
         return settings.getString(key, defaultValue);
     }
+
+    public void setClipboardText(String text) {
+        ClipboardManager clipboardManager=(ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
+    }
+
+    public static String getClipboardText() {
+        ClipboardManager clipboardManager=(ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);  
+        if(clipboardManager==null)  
+        {  
+            return "";
+        }  
+        if(clipboardManager.getText()==null)  
+        {  
+            return "";
+        } 
+        return clipboardManager.getText().toString();  
+    }
     
     public static void setBoolForKey(String key, boolean value) {
         SharedPreferences settings = sActivity.getSharedPreferences(Cocos2dxHelper.PREFS_NAME, 0);
