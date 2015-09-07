@@ -80,7 +80,7 @@ UIListView构建函数
 -   bgEndColor 渐变背景结束色,nil表示无背景色
 -   bg 背景图
 -   bgScale9 背景图是否可缩放
--	capInsets 缩放区域
+-		capInsets 缩放区域
 
 ]]
 -- end --
@@ -151,7 +151,7 @@ end
 -- 创建一个新的listViewItem项
 -- @function [parent=#UIListView] newItem
 -- @param node item 要放到listViewItem中的内容content
--- @return UIListViewItem#UIListViewItem 
+-- @return UIListViewItem#UIListViewItem
 
 -- end --
 
@@ -279,7 +279,7 @@ end
 -- @function [parent=#UIListView] addItem
 -- @param node listItem 要添加的项
 -- @param integer pos 要添加的位置,默认添加到最后
--- @return UIListView#UIListView 
+-- @return UIListView#UIListView
 
 -- end --
 
@@ -303,7 +303,7 @@ end
 -- @function [parent=#UIListView] removeItem
 -- @param node listItem 要移除的项
 -- @param boolean bAni 是否要显示移除动画
--- @return UIListView#UIListView 
+-- @return UIListView#UIListView
 
 -- end --
 
@@ -344,7 +344,7 @@ end
 --------------------------------
 -- 移除所有的项
 -- @function [parent=#UIListView] removeAllItems
--- @return integer#integer 
+-- @return integer#integer
 
 -- end --
 
@@ -361,7 +361,7 @@ end
 -- 取某项在列表控件中的位置
 -- @function [parent=#UIListView] getItemPos
 -- @param node listItem 列表项
--- @return integer#integer 
+-- @return integer#integer
 
 -- end --
 
@@ -379,7 +379,7 @@ end
 -- 判断某项是否在列表控件的显示区域中
 -- @function [parent=#UIListView] isItemInViewRect
 -- @param integer pos 列表项位置
--- @return boolean#boolean 
+-- @return boolean#boolean
 
 -- end --
 
@@ -394,7 +394,7 @@ function UIListView:isItemInViewRect(pos)
 	if not item then
 		return
 	end
-	
+
 	local bound = item:getBoundingBox()
 	local nodePoint = self.container:convertToWorldSpace(
 		cc.p(bound.x, bound.y))
@@ -409,7 +409,7 @@ end
 --------------------------------
 -- 加载列表
 -- @function [parent=#UIListView] reload
--- @return UIListView#UIListView 
+-- @return UIListView#UIListView
 
 -- end --
 
@@ -691,7 +691,7 @@ end
 function UIListView:increaseOrReduceItem_()
 
 	if 0 == #self.items_ then
-		print("ERROR items count is 0")
+		-- print("ERROR items count is 0")
 		return
 	end
 
@@ -898,7 +898,7 @@ end
 --------------------------------
 -- 设置delegate函数
 -- @function [parent=#UIListView] setDelegate
--- @return UIListView#UIListView 
+-- @return UIListView#UIListView
 
 -- end --
 

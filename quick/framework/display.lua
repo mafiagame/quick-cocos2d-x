@@ -763,7 +763,7 @@ function display.newTilesSprite(filename, rect)
 
     sprite:getTexture():setTexParameters(gl.LINEAR, gl.LINEAR, gl.REPEAT, gl.REPEAT)
 
-    display.align(sprite, display.LEFT_BOTTOM, 0, 0)
+    display.align(sprite, display.CENTER, 0, 0)
 
     return sprite
 end
@@ -1577,7 +1577,7 @@ sprite:setSpriteFrame(frameNo)
 function display.newSpriteFrame(frameName)
     local frame = sharedSpriteFrameCache:getSpriteFrame(frameName)
     if not frame then
-        printError("display.newSpriteFrame() - invalid frameName %s", tostring(frameName))
+        print("display.newSpriteFrame() - invalid frameName %s", tostring(frameName))
     end
     return frame
 end

@@ -167,7 +167,7 @@ function dump(value, desciption, nesting)
         else
             lookupTable[value] = true
             if nest > nesting then
-                result[#result +1 ] = string.format("%s%s = *MAX NESTING*", indent, desciption)
+                result[#result +1 ] = string.format("%s%s = *MAX NESTING*", indent, tostring(desciption))
             else
                 result[#result +1 ] = string.format("%s%s = {", indent, _v(desciption))
                 local indent2 = indent.."    "

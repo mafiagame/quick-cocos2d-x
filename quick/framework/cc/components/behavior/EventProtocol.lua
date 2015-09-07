@@ -9,7 +9,7 @@ function EventProtocol:ctor()
 end
 
 function EventProtocol:addEventListener(eventName, listener, tag)
-    assert(type(eventName) == "string" and eventName ~= "",
+    assert((type(eventName) == "string" or type(eventName) == "number") and eventName ~= "",
         "EventProtocol:addEventListener() - invalid eventName")
     eventName = string.upper(eventName)
     if self.listeners_[eventName] == nil then

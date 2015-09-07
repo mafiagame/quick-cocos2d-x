@@ -177,5 +177,5 @@ if DEBUG_MEM then
         printInfo(sharedTextureCache:getCachedTextureInfo())
         printInfo("---------------------------------------------------")
     end
-    sharedDirector:getScheduler():scheduleScriptFunc(showMemoryUsage, DEBUG_MEM_INTERVAL or 10.0, false)
+    sharedDirector:getScheduler():scheduleScriptFunc(showMemoryUsage, DEBUG_MEM_INTERVAL or 1.0, false)
 end

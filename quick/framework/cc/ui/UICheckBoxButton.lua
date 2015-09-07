@@ -139,14 +139,14 @@ end
 
 -- end --
 
-function UICheckBoxButton:setButtonSelected(selected)
+function UICheckBoxButton:setButtonSelected(selected, dispatch)
     if self:isButtonSelected() ~= selected then
         if selected then
             self.fsm_:doEventForce("select")
         else
             self.fsm_:doEventForce("unselect")
         end
-        self:dispatchEvent({name = UIButton.STATE_CHANGED_EVENT, state = self.fsm_:getState()})
+        self:dispatchEvent({name = UIButton.STATE_CHANGED_EVENT, state = self.fsm_:getState(), dispatch = dispatch})
     end
     return self
 end

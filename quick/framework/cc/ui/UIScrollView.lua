@@ -39,9 +39,9 @@ end)
 UIScrollView.BG_ZORDER 				= -100
 UIScrollView.TOUCH_ZORDER 			= -99
 
-UIScrollView.DIRECTION_BOTH			= 0
+UIScrollView.DIRECTION_HORIZONTAL	= 0
 UIScrollView.DIRECTION_VERTICAL		= 1
-UIScrollView.DIRECTION_HORIZONTAL	= 2
+UIScrollView.DIRECTION_BOTH			= 2
 
 -- start --
 
@@ -278,10 +278,18 @@ function UIScrollView:resetPosition()
 	end
 
 	local x, y = self.scrollNode:getPosition()
-	local bound = self.scrollNode:getCascadeBoundingBox()
+	local bound = self:getBox()
 	local disY = self.viewRect_.y + self.viewRect_.height - bound.y - bound.height
 	y = y + disY
 	self.scrollNode:setPosition(x, y)
+end
+
+function UIScrollView:getBox()
+	local pos = cc.p(self.scrollNode:convertToWorldSpace(cc.p(0,0)))
+	local bound = self.scrollNode:getBoundingBox()
+	bound.x = pos.x 
+	bound.y = pos.y
+	return bound
 end
 
 -- start --
@@ -353,7 +361,7 @@ function UIScrollView:addScrollNode(node)
 	self.scrollNode = node
 
 	if not self.viewRect_ then
-		self.viewRect_ = self.scrollNode:getCascadeBoundingBox()
+		self.viewRect_ = self:getBox()
 		self:setViewRect(self.viewRect_)
 	end
 	node:setTouchSwallowEnabled(false)
@@ -362,9 +370,9 @@ function UIScrollView:addScrollNode(node)
  --        return self:onTouch_(event)
  --    end)
     node:addNodeEventListener(cc.NODE_TOUCH_CAPTURE_EVENT, function (event)
-        return self:onTouchCapture_(event)
+        return self:onTouch_(event)
     end)
-	self:addTouchNode()
+	-- self:addTouchNode()
 
     return self
 end
@@ -401,7 +409,7 @@ end
 -- private
 
 function UIScrollView:calcLayoutPadding()
-	local boundBox = self.scrollNode:getCascadeBoundingBox()
+	local boundBox = self:getBox()
 
 	self.layoutPadding.left = boundBox.x - self.actualRect_.x
 	self.layoutPadding.right =
@@ -431,7 +439,7 @@ function UIScrollView:onTouch_(event)
 	end
 
 	if "began" == event.name and self.touchOnContent then
-		local cascadeBound = self.scrollNode:getCascadeBoundingBox()
+		local cascadeBound = self:getBox()
 		if not cc.rectContainsPoint(cascadeBound, cc.p(event.x, event.y)) then
 			return false
 		end
@@ -640,7 +648,7 @@ function UIScrollView:elasticScroll()
 end
 
 function UIScrollView:getScrollNodeRect()
-	local bound = self.scrollNode:getCascadeBoundingBox()
+	local bound = self:getBox()
 	-- bound.x = bound.x - self.layoutPadding.left
 	-- bound.y = bound.y - self.layoutPadding.bottom
 	-- bound.width = bound.width + self.layoutPadding.left + self.layoutPadding.right
@@ -660,7 +668,7 @@ end
 
 -- 是否显示到边缘
 function UIScrollView:isSideShow()
-	local bound = self.scrollNode:getCascadeBoundingBox()
+	local bound = self:getBox()
 	if bound.x > self.viewRect_.x
 		or bound.y > self.viewRect_.y
 		or bound.x + bound.width < self.viewRect_.x + self.viewRect_.width
@@ -681,7 +689,7 @@ function UIScrollView:callListener_(event)
 end
 
 function UIScrollView:enableScrollBar()
-	local bound = self.scrollNode:getCascadeBoundingBox()
+	local bound = self:getBox()
 	if self.sbV then
 		self.sbV:setVisible(false)
 		transition.stopTarget(self.sbV)
@@ -742,7 +750,7 @@ function UIScrollView:drawScrollBar()
 		return
 	end
 
-	local bound = self.scrollNode:getCascadeBoundingBox()
+	local bound = self:getBox()
 	if self.sbV then
 		self.sbV:setVisible(true)
 		local size = self.sbV:getContentSize()
@@ -825,12 +833,12 @@ function UIScrollView:addTouchNode()
 		node = display.newNode()
 		self.touchNode_ = node
 
-		node:setLocalZOrder(UIScrollView.TOUCH_ZORDER)
-		node:setTouchSwallowEnabled(true)
-		node:setTouchEnabled(true)
-		node:addNodeEventListener(cc.NODE_TOUCH_EVENT, function (event)
-	        return self:onTouch_(event)
-	    end)
+		-- node:setLocalZOrder(UIScrollView.TOUCH_ZORDER)
+		-- node:setTouchSwallowEnabled(true)
+		-- node:setTouchEnabled(true)
+		-- node:addNodeEventListener(cc.NODE_TOUCH_EVENT, function (event)
+	 --        return self:onTouch_(event)
+	 --    end)
 
 	    self:addChild(node)
 	end

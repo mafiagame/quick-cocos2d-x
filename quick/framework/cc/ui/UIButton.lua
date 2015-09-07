@@ -318,14 +318,14 @@ end
 
 -- end --
 
-function UIButton:setButtonEnabled(enabled)
+function UIButton:setButtonEnabled(enabled, dispatch)
     self:setTouchEnabled(enabled)
     if enabled and self.fsm_:canDoEvent("enable") then
         self.fsm_:doEventForce("enable")
-        self:dispatchEvent({name = UIButton.STATE_CHANGED_EVENT, state = self.fsm_:getState()})
+        self:dispatchEvent({name = UIButton.STATE_CHANGED_EVENT, state = self.fsm_:getState(), dispatch = dispatch})
     elseif not enabled and self.fsm_:canDoEvent("disable") then
         self.fsm_:doEventForce("disable")
-        self:dispatchEvent({name = UIButton.STATE_CHANGED_EVENT, state = self.fsm_:getState()})
+        self:dispatchEvent({name = UIButton.STATE_CHANGED_EVENT, state = self.fsm_:getState(), dispatch = dispatch})
     end
     return self
 end
@@ -401,7 +401,11 @@ function UIButton:onButtonRelease(callback)
 end
 
 function UIButton:addButtonStateChangedEventListener(callback)
-    return self:addEventListener(UIButton.STATE_CHANGED_EVENT, callback)
+    return self:addEventListener(UIButton.STATE_CHANGED_EVENT, function(event)
+        if event.dispatch ~= false then
+            callback(event)
+        end
+    end)
 end
 
 -- start --

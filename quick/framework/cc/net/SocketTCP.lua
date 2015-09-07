@@ -119,8 +119,8 @@ end
 
 -- disconnect on user's own initiative.
 function SocketTCP:disconnect()
-	self:_disconnect()
 	self.isRetryConnect = false -- initiative to disconnect, no reconnect.
+	self:_disconnect()
 end
 
 --------------------
