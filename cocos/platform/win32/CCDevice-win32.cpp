@@ -455,6 +455,19 @@ void Device::setKeepScreenOn(bool value)
 {
 }
 
+
+void Device::setClipboardText(const std::string& text)
+{
+
+}
+
+
+std::string Device::getClipboardText()
+{
+	return "";
+}
+
+
 NS_CC_END
 
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_WIN32

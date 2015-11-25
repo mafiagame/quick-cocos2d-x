@@ -2,3 +2,4 @@ xcuserdata
 xcshareddata
 *.pyc
 userconf.ini
+Debug.win32

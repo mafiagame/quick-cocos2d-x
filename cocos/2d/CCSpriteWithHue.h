@@ -12,7 +12,7 @@
 
 #include "cocos2d.h"
 
-class SpriteWithHue: public cocos2d::Sprite
+class CC_DLL SpriteWithHue : public cocos2d::Sprite
 {
 public:
     static SpriteWithHue* create();
