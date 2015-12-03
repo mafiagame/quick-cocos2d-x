@@ -12,12 +12,6 @@
         
 --------------------------------
 -- 
--- @function [parent=#SkeletonRenderer] isOpacityModifyRGB 
--- @param self
--- @return bool#bool ret (return value: bool)
-        
---------------------------------
--- 
 -- @function [parent=#SkeletonRenderer] setDebugSlotsEnabled 
 -- @param self
 -- @param #bool enabled
@@ -39,22 +33,17 @@
 -- @param self
         
 --------------------------------
--- 
--- @function [parent=#SkeletonRenderer] setSkin 
+-- @overload self, char         
+-- @overload self, string         
+-- @function [parent=#SkeletonRenderer] setSkin
 -- @param self
 -- @param #string skinName
 -- @return bool#bool ret (return value: bool)
-        
+
 --------------------------------
 -- 
 -- @function [parent=#SkeletonRenderer] setToSetupPose 
 -- @param self
-        
---------------------------------
--- 
--- @function [parent=#SkeletonRenderer] setOpacityModifyRGB 
--- @param self
--- @param #bool value
         
 --------------------------------
 -- 
@@ -92,8 +81,30 @@
 
 --------------------------------
 -- 
+-- @function [parent=#SkeletonRenderer] onEnter 
+-- @param self
+        
+--------------------------------
+-- 
+-- @function [parent=#SkeletonRenderer] onExit 
+-- @param self
+        
+--------------------------------
+-- 
+-- @function [parent=#SkeletonRenderer] setOpacityModifyRGB 
+-- @param self
+-- @param #bool value
+        
+--------------------------------
+-- 
 -- @function [parent=#SkeletonRenderer] getBoundingBox 
 -- @param self
 -- @return rect_table#rect_table ret (return value: rect_table)
+        
+--------------------------------
+-- 
+-- @function [parent=#SkeletonRenderer] isOpacityModifyRGB 
+-- @param self
+-- @return bool#bool ret (return value: bool)
         
 return nil
