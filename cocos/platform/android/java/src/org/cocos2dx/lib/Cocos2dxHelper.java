@@ -39,6 +39,7 @@ import android.content.res.AssetManager;
 import android.net.Uri;
 import android.os.Build;
 import android.preference.PreferenceManager.OnActivityResultListener;
+import android.text.ClipboardManager;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.WindowManager;
@@ -371,20 +372,21 @@ public class Cocos2dxHelper {
     }
 
     public void setClipboardText(String text) {
-        ClipboardManager clipboardManager=(ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
+//        ClipboardManager clipboardManager=(ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
     }
 
     public static String getClipboardText() {
-        ClipboardManager clipboardManager=(ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);  
-        if(clipboardManager==null)  
-        {  
-            return "";
-        }  
-        if(clipboardManager.getText()==null)  
-        {  
-            return "";
-        } 
-        return clipboardManager.getText().toString();  
+    	return "";
+//        ClipboardManager clipboardManager=(ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);  
+//        if(clipboardManager==null)  
+//        {  
+//            return "";
+//        }  
+//        if(clipboardManager.getText()==null)  
+//        {  
+//            return "";
+//        } 
+//        return clipboardManager.getText().toString();  
     }
     
     public static void setBoolForKey(String key, boolean value) {
