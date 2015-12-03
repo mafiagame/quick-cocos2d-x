@@ -458,12 +458,13 @@ void Device::setKeepScreenOn(bool value)
 
 void Device::setClipboardText(const std::string& text)
 {
-
+    CCLOG("%s %d: empty impl!", __FILE__, __LINE__);
 }
 
 
 std::string Device::getClipboardText()
 {
+    CCLOG("%s %d: empty impl!", __FILE__, __LINE__);
 	return "";
 }
 
