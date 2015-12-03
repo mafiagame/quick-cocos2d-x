@@ -64451,6 +64451,40 @@ int lua_cocos2dx_Device_setClipboardText(lua_State* tolua_S)
 #endif
     return 0;
 }
+int lua_cocos2dx_Device_getAppVersionCode(lua_State* tolua_S)
+{
+    int argc = 0;
+    bool ok  = true;
+
+#if COCOS2D_DEBUG >= 1
+    tolua_Error tolua_err;
+#endif
+
+#if COCOS2D_DEBUG >= 1
+    if (!tolua_isusertable(tolua_S,1,"cc.Device",0,&tolua_err)) goto tolua_lerror;
+#endif
+
+    argc = lua_gettop(tolua_S) - 1;
+
+    if (argc == 0)
+    {
+        if(!ok)
+        {
+            tolua_error(tolua_S,"invalid arguments in function 'lua_cocos2dx_Device_getAppVersionCode'", nullptr);
+            return 0;
+        }
+        std::string ret = cocos2d::Device::getAppVersionCode();
+        tolua_pushcppstring(tolua_S,ret);
+        return 1;
+    }
+    luaL_error(tolua_S, "%s has wrong number of arguments: %d, was expecting %d\n ", "cc.Device:getAppVersionCode",argc, 0);
+    return 0;
+#if COCOS2D_DEBUG >= 1
+    tolua_lerror:
+    tolua_error(tolua_S,"#ferror in function 'lua_cocos2dx_Device_getAppVersionCode'.",&tolua_err);
+#endif
+    return 0;
+}
 int lua_cocos2dx_Device_getDPI(lua_State* tolua_S)
 {
     int argc = 0;
@@ -64536,6 +64570,7 @@ int lua_register_cocos2dx_Device(lua_State* tolua_S)
         tolua_function(tolua_S,"setAccelerometerEnabled", lua_cocos2dx_Device_setAccelerometerEnabled);
         tolua_function(tolua_S,"setAccelerometerInterval", lua_cocos2dx_Device_setAccelerometerInterval);
         tolua_function(tolua_S,"setClipboardText", lua_cocos2dx_Device_setClipboardText);
+        tolua_function(tolua_S,"getAppVersionCode", lua_cocos2dx_Device_getAppVersionCode);
         tolua_function(tolua_S,"getDPI", lua_cocos2dx_Device_getDPI);
         tolua_function(tolua_S,"setKeepScreenOn", lua_cocos2dx_Device_setKeepScreenOn);
     tolua_endmodule(tolua_S);

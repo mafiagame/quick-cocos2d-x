@@ -28,6 +28,12 @@
 -- @param #string text
         
 --------------------------------
+-- 
+-- @function [parent=#Device] getAppVersionCode 
+-- @param self
+-- @return string#string ret (return value: string)
+        
+--------------------------------
 -- Gets the DPI of device<br>
 -- return The DPI of device.
 -- @function [parent=#Device] getDPI 

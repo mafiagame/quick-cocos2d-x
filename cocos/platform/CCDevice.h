@@ -71,6 +71,7 @@ public:
 
     static void setClipboardText(const std::string& text);
     static std::string getClipboardText();
+    static std::string getAppVersionCode();
     
 private:
     CC_DISALLOW_IMPLICIT_CONSTRUCTORS(Device);
