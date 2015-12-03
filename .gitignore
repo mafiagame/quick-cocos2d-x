@@ -3,3 +3,7 @@ xcshareddata
 *.pyc
 userconf.ini
 Debug.win32
+cocos/platform/android/java/bin
+quick/player/proj.win32
+quick/player/win32
+player3.pdb
