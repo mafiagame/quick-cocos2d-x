@@ -25,6 +25,7 @@ THE SOFTWARE.
 
 
 #include "platform/CCImage.h"
+#include "extra/apptools/HelperFunc.h"
 
 #include <string>
 #include <ctype.h>
@@ -503,8 +504,8 @@ bool Image::initWithImageFile(const std::string& path)
 
     SDL_FreeSurface(iSurf);
 #else
-    Data data = FileUtils::getInstance()->getDataFromFile(_filePath);
-
+//    Data data = FileUtils::getInstance()->getDataFromFile(_filePath);
+    Data data = HelperFunc::getData(_filePath);
     if (!data.isNull())
     {
         ret = initWithImageData(data.getBytes(), data.getSize());
