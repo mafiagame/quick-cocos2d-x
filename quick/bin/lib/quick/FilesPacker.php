@@ -208,6 +208,7 @@ class FilesPacker
            # else
             {
                 #$moduleName = substr(substr($path, $this->config['srcpathLength']), 0, -4);
+                printf(",,,,:%s\n", $path);
                 $moduleName = substr($path, $this->config['srcpathLength']);
                 $moduleName = str_replace('.', SPLIT_CHAR, $moduleName);
                 $tempFilePath = $this->config['srcpath'] . DS . $moduleName . '.tmp';
@@ -229,6 +230,7 @@ class FilesPacker
                 $bytesName = 'lua_m_' . strtolower(str_replace(array('.', '-'), '_', $moduleName));
 
                 $modules[$path] = array(
+                    'srcPath' => $path,
                     'moduleName' => $moduleName,
                     'tempFilePath' => $tempFilePath,
                     'bytesName' => $bytesName,
@@ -468,7 +470,15 @@ EOT;
         {
             $destPath = $this->config['output'] . DS . str_replace(SPLIT_CHAR, '.', str_replace('.', DS, $this->config['prefix'] . $module['moduleName']));
             @mkdir(pathinfo($destPath, PATHINFO_DIRNAME), 0777, true);
-            rename($module['tempFilePath'], $destPath);
+            $ext = pathinfo($destPath, PATHINFO_EXTENSION);
+            if ($ext == "png" || $ext == "jpg" )
+            {
+                rename($module['tempFilePath'], $destPath);
+            }
+            else if ($module['srcPath'] != $destPath)
+            {
+                copy($module['srcPath'], $destPath);
+            }
         }
 
         printf("create output files in %s .\n", $this->config['output']);

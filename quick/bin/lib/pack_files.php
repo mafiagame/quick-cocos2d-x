@@ -1,6 +1,6 @@
 <?php
 
-ini_set('memory_limit','256M');
+ini_set('memory_limit','512M');
 require_once(__DIR__ . '/quick/FilesPacker.php');
 
 $options = array(
