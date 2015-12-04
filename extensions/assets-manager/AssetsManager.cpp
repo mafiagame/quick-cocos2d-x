@@ -229,6 +229,7 @@ void AssetsManager::downloadAndUncompress()
             
             // Record new version code.
             UserDefault::getInstance()->setStringForKey(this->keyOfVersion().c_str(), this->_version.c_str());
+            UserDefault::getInstance()->setStringForKey("app_record_version", this->_version.c_str());
             
             // Unrecord downloaded version code.
             UserDefault::getInstance()->setStringForKey(this->keyOfDownloadedVersion().c_str(), "");
