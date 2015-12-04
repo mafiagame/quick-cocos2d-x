@@ -189,6 +189,11 @@ std::string Device::getClipboardText()
     return [[UIPasteboard generalPasteboard].string cStringUsingEncoding: NSUTF8StringEncoding];
 }
 
+std::string Device::getAppVersionCode()
+{
+    return [[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"] cStringUsingEncoding:NSUTF8StringEncoding];
+}
+
 typedef struct
 {
     unsigned int height;
