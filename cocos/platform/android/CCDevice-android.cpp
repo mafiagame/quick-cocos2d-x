@@ -213,10 +213,14 @@ void Device::setClipboardText(const std::string& text)
 
 }
 
-
 std::string Device::getClipboardText()
 {
   return "";
+}
+
+std::string Device::getAppVersionCode()
+{
+    return getAppVersionCodeJni();
 }
 
 NS_CC_END

@@ -219,6 +219,19 @@ void setKeepScreenOnJni(bool value) {
     }
 }
 
+std::string getAppVersionCodeJni() {
+    JniMethodInfo t;
+    std::string ret("");
+    
+    if (JniHelper::getStaticMethodInfo(t, CLASS_NAME, "getAppVersionCode", "()Ljava/lang/String;")) {
+        jstring str = (jstring)t.env->CallStaticObjectMethod(t.classID, t.methodID);
+        t.env->DeleteLocalRef(t.classID);
+        ret = JniHelper::jstring2string(str);
+        t.env->DeleteLocalRef(str);
+    }
+    return ret;
+}
+
 extern bool openURLJNI(const char* url) {
     JniMethodInfo t;
     

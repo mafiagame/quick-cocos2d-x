@@ -35,6 +35,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.AssetManager;
 import android.net.Uri;
 import android.os.Build;
@@ -169,6 +171,20 @@ public class Cocos2dxHelper {
         Cocos2dxHelper.sAccelerometerEnabled = false;
         Cocos2dxHelper.sCocos2dxAccelerometer.disable();
     }
+    
+    public static String getAppVersionCode() {
+        String versionCode = "";
+    	PackageInfo pInfo;
+		try {
+			pInfo = sActivity.getPackageManager().getPackageInfo(sActivity.getPackageName(), 0);
+			versionCode = ""+pInfo.versionCode;
+		} catch (NameNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	return versionCode;
+    }
+    
     
     public static void setKeepScreenOn(boolean value) {
         ((Cocos2dxActivity)sActivity).setKeepScreenOn(value);

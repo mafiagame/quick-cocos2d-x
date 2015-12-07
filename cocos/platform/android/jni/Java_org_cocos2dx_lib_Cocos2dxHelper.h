@@ -40,6 +40,7 @@ extern void enableAccelerometerJni();
 extern void disableAccelerometerJni();
 extern void setAccelerometerIntervalJni(float interval);
 extern void setKeepScreenOnJni(bool value);
+extern std::string getAppVersionCodeJni();
 extern bool openURLJNI(const char* url);
 // functions for UserDefault
 extern bool getBoolForKeyJNI(const char* key, bool defaultValue);
