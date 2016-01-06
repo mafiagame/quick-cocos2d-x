@@ -629,7 +629,11 @@ void Scheduler::unscheduleAllWithMinPriority(int minPriority)
         }
     }
 #if CC_ENABLE_SCRIPT_BINDING
-    _scriptHandlerEntries.clear();
+    for (auto i = _scriptHandlerEntries.size() - 1; i >= 0; i--)
+    {
+        SchedulerScriptHandlerEntry* eachEntry = _scriptHandlerEntries.at(i);
+        eachEntry->markedForDeletion();
+    }
 #endif
 }
 
