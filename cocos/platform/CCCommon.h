@@ -51,7 +51,7 @@ void CC_DLL MessageBox(const char * msg, const char * title);
 enum class LanguageType
 {
     ENGLISH = 0,
-    CHINESE,
+    CHINESE_SIMPLIFIED,
     FRENCH,
     ITALIAN,
     GERMAN,
@@ -64,7 +64,8 @@ enum class LanguageType
     PORTUGUESE,
     ARABIC,
     NORWEGIAN,
-    POLISH
+    POLISH,
+    CHINESE_TRADITIONAL,
 };
 
 // END of platform group

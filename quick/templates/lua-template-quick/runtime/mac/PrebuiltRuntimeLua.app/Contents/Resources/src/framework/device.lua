@@ -80,8 +80,10 @@ elseif target == cc.PLATFORM_OS_WP8 then
 end
 
 local language_ = sharedApplication:getCurrentLanguage()
-if language_ == cc.LANGUAGE_CHINESE then
-    language_ = "cn"
+if language_ == cc.CHINESE_SIMPLIFIED then
+    language_ = "zh-CHS"
+elseif language_ == cc.CHINESE_TRADITIONAL then
+    language_ = "zh-CHT"
 elseif language_ == cc.LANGUAGE_FRENCH then
     language_ = "fr"
 elseif language_ == cc.LANGUAGE_ITALIAN then

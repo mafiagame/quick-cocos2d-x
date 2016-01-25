@@ -114,13 +114,19 @@ LanguageType Application::getCurrentLanguage()
 {
     std::string languageName = getCurrentLanguageJNI();
     const char* pLanguageName = languageName.c_str();
+    const char* languageCode = getCurrentLanguageCode();
     LanguageType ret = LanguageType::ENGLISH;
 
-    if (0 == strcmp("zh", pLanguageName))
+    if (0 == strcmp("zh", languageCode))
     {
-        ret = LanguageType::CHINESE;
+        /** Change the following lines */
+        if (languageName.find("TW") != std::string::npos) {
+            ret = LanguageType::CHINESE_TRADITIONAL;
+        } else {
+            ret = LanguageType::CHINESE_SIMPLIFIED;
+        }
     }
-    else if (0 == strcmp("en", pLanguageName))
+    else if (0 == strcmp("en", languageCode))
     {
         ret = LanguageType::ENGLISH;
     }

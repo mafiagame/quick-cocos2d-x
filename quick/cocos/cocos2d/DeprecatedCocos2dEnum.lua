@@ -54,7 +54,7 @@ _G.kCCFlipedAll                      = cc.FLIPED_ALL
 _G.kCCFlippedMask                    = cc.FLIPPED_MASK
 
 _G.kLanguageEnglish  = cc.LANGUAGE_ENGLISH
-_G.kLanguageChinese  = cc.LANGUAGE_CHINESE
+_G.kLanguageChinese  = cc.CHINESE_SIMPLIFIED
 _G.kLanguageFrench   = cc.LANGUAGE_FRENCH
 _G.kLanguageItalian  = cc.LANGUAGE_ITALIAN
 _G.kLanguageGerman   = cc.LANGUAGE_GERMAN
