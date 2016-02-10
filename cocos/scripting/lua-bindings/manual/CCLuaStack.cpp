@@ -653,6 +653,7 @@ int LuaStack::executeFunction(int handler, int numArgs, int numResults, const st
             }
             else                                                           /* L: ... G error */
             {
+                CCLOG("[LUA ERROR] %s", lua_tostring(_state, - 2));        /* L: ... error */
                 lua_pop(_state, 2);                                        // remove __G__TRACKBACK__ and error message from stack
             }
             return 0;
