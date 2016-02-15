@@ -71,6 +71,12 @@ public:
         PoolManager::destroyInstance();
     }
 
+#if CC_ENABLE_SCRIPT_BINDING
+    virtual void applicationScriptError(std::string reason, std::string message){
+        //
+    };
+#endif
+    
     /**
     @brief    Implement Director and Scene init code here.
     @return true    Initialize success, app continue.

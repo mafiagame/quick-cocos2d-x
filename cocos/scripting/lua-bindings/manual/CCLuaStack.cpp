@@ -443,6 +443,7 @@ int LuaStack::executeFunction(int numArgs)
     {
         if (traceback == 0)
         {
+            Application::getInstance()->applicationScriptError("[LUA ERROR]", lua_tostring(_state, - 1));
             CCLOG("[LUA ERROR] %s", lua_tostring(_state, - 1));        /* L: ... error */
             lua_pop(_state, 1); // remove error message from stack
         }
