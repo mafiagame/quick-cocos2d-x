@@ -1052,6 +1052,8 @@ void Director::pause()
     // when paused, don't consume CPU
     setAnimationInterval(1 / 4.0);
     _paused = true;
+    
+    Director::getInstance()->getEventDispatcher()->dispatchCustomEvent("APP_PAUSE_EVENT");
 }
 
 void Director::resume()
@@ -1067,6 +1069,8 @@ void Director::resume()
     _deltaTime = 0;
     // fix issue #3509, skip one fps to avoid incorrect time calculation.
     setNextDeltaTimeZero(true);
+
+    Director::getInstance()->getEventDispatcher()->dispatchCustomEvent("APP_RESUME_EVENT");
 }
 
 // display the FPS using a LabelAtlas
