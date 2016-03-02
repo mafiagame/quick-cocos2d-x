@@ -65,7 +65,8 @@ enum {
     kNodeOnExit,
     kNodeOnEnterTransitionDidFinish,
     kNodeOnExitTransitionDidStart,
-    kNodeOnCleanup
+    kNodeOnCleanup,
+    kNodeOnDestroy
 };
 
 bool CC_DLL nodeComparisonLess(Node* n1, Node* n2);

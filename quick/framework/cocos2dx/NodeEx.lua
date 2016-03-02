@@ -127,6 +127,9 @@ end
 function Node:onCleanup()
 end
 
+function Node:onDestroy()
+end
+
 function Node:setNodeEventEnabled(enabled, listener)
     if enabled then
         if self.__node_event_handle__ then
@@ -147,6 +150,8 @@ function Node:setNodeEventEnabled(enabled, listener)
                     self:onExitTransitionStart()
                 elseif name == "cleanup" then
                     self:onCleanup()
+                elseif name == "destroy" then
+                    self:onDestroy()
                 end
             end
         end
@@ -355,7 +360,7 @@ function Node:EventDispatcher( idx, data )
     local touch_event = nil
     if idx==c.NODE_EVENT then
         event = { name=data }
-        if data=="cleanup" then
+        if data=="destroy" then
             flagNodeCleanup = true
         end
     elseif idx==c.NODE_ENTER_FRAME_EVENT then
