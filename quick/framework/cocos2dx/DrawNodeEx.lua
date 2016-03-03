@@ -32,9 +32,9 @@ local DrawNode = c.DrawNode
 local drawPolygon = DrawNode.drawPolygon
 function DrawNode:drawPolygon(points, params)
     local segments = #points
-    fillColor = cc.c4f(1,1,1,1)
-    borderWidth  = 0
-    borderColor  = cc.c4f(0,0,0,1)
+    local fillColor = cc.c4f(1,1,1,1)
+    local borderWidth  = 0
+    local borderColor  = cc.c4f(0,0,0,1)
     if params then
         if params.fillColor then fillColor = params.fillColor end
         if params.borderWidth then borderWidth = params.borderWidth end
