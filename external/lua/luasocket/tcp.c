@@ -372,6 +372,11 @@ static int tcp_create(lua_State *L, int family) {
             setsockopt(sock, IPPROTO_IPV6, IPV6_V6ONLY,
                 (void *)&yes, sizeof(yes));
         }
+        
+        /*fix SIGPIPE crash, by justbilt*/
+        int val = 1;
+        setsockopt(sock, SOL_SOCKET, SO_NOSIGPIPE, (void *)&val, sizeof(int));
+        
         tcp->sock = sock;
         io_init(&tcp->io, (p_send) socket_send, (p_recv) socket_recv,
                 (p_error) socket_ioerror, &tcp->sock);
