@@ -373,9 +373,11 @@ static int tcp_create(lua_State *L, int family) {
                 (void *)&yes, sizeof(yes));
         }
         
-        /*fix SIGPIPE crash, by justbilt*/
+        /* fix SIGPIPE crash, by justbilt */
+#ifdef CC_TARGET_OS_IPHONE
         int val = 1;
         setsockopt(sock, SOL_SOCKET, SO_NOSIGPIPE, (void *)&val, sizeof(int));
+#endif
         
         tcp->sock = sock;
         io_init(&tcp->io, (p_send) socket_send, (p_recv) socket_recv,
