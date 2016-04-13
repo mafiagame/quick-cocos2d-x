@@ -405,11 +405,13 @@ void createSimulator(const char* viewName, float width, float height,bool isLand
     NSString *str = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
 
     //show log to console
-    [_consoleController trace:str];
-    if(_fileHandle!=nil){
-        [_fileHandle writeData:[str dataUsingEncoding:NSUTF8StringEncoding]];
+    if (str)
+    {
+        [_consoleController trace:str];
+        if(_fileHandle!=nil){
+            [_fileHandle writeData:[str dataUsingEncoding:NSUTF8StringEncoding]];
+        }
     }
-
 }
 
 - (void) close_debugLogFile
