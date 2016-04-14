@@ -32,6 +32,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.text.InputFilter;
 import android.text.InputType;
+import android.text.Spanned;
 import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.view.ViewGroup;
@@ -131,6 +132,20 @@ public class Cocos2dxEditBoxDialog extends Dialog {
     private int mInputFlagConstraints;
     private int mInputModeContraints;
     private boolean mIsMultiline;
+
+    public static InputFilter EMOJI_FILTER = new InputFilter() {
+
+        @Override
+        public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
+            for (int index = start; index < end; index++) {
+                int type = Character.getType(source.charAt(index));
+                if (type == Character.SURROGATE || type == Character.OTHER_SYMBOL || type == Character.PRIVATE_USE) {
+                    return "";
+                }
+            }
+            return null;
+        }
+    };
 
     // ===========================================================
     // Constructors
@@ -259,7 +274,9 @@ public class Cocos2dxEditBoxDialog extends Dialog {
         }
 
         if (this.mMaxLength > 0) {
-            this.mInputEditText.setFilters(new InputFilter[] { new InputFilter.LengthFilter(this.mMaxLength) });
+            this.mInputEditText.setFilters(new InputFilter[] { new InputFilter.LengthFilter(this.mMaxLength), EMOJI_FILTER });
+        }else{
+            this.mInputEditText.setFilters(new InputFilter[] { EMOJI_FILTER });
         }
 
         final Handler initHandler = new Handler();
