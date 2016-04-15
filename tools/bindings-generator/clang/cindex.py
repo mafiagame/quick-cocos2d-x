@@ -3392,7 +3392,8 @@ class Config:
 
     def get_cindex_library(self):
         try:
-            library = cdll.LoadLibrary(self.get_filename())
+            # library = cdll.LoadLibrary(self.get_filename())
+            library = cdll.LoadLibrary("../bindings-generator/libclang/" + self.get_filename())
         except OSError as e:
             msg = str(e) + ". To provide a path to libclang use " \
                            "Config.set_library_path() or " \

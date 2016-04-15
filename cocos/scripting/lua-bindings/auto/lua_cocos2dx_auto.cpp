@@ -2644,6 +2644,55 @@ int lua_register_cocos2dx_Event(lua_State* tolua_S)
     return 1;
 }
 
+int lua_cocos2dx_EventTouch_setEventCode(lua_State* tolua_S)
+{
+    int argc = 0;
+    cocos2d::EventTouch* cobj = nullptr;
+    bool ok  = true;
+
+#if COCOS2D_DEBUG >= 1
+    tolua_Error tolua_err;
+#endif
+
+
+#if COCOS2D_DEBUG >= 1
+    if (!tolua_isusertype(tolua_S,1,"cc.EventTouch",0,&tolua_err)) goto tolua_lerror;
+#endif
+
+    cobj = (cocos2d::EventTouch*)tolua_tousertype(tolua_S,1,0);
+
+#if COCOS2D_DEBUG >= 1
+    if (!cobj) 
+    {
+        tolua_error(tolua_S,"invalid 'cobj' in function 'lua_cocos2dx_EventTouch_setEventCode'", nullptr);
+        return 0;
+    }
+#endif
+
+    argc = lua_gettop(tolua_S)-1;
+    if (argc == 1) 
+    {
+        cocos2d::EventTouch::EventCode arg0;
+
+        ok &= luaval_to_int32(tolua_S, 2,(int *)&arg0, "cc.EventTouch:setEventCode");
+        if(!ok)
+        {
+            tolua_error(tolua_S,"invalid arguments in function 'lua_cocos2dx_EventTouch_setEventCode'", nullptr);
+            return 0;
+        }
+        cobj->setEventCode(arg0);
+        return 0;
+    }
+    luaL_error(tolua_S, "%s has wrong number of arguments: %d, was expecting %d \n", "cc.EventTouch:setEventCode",argc, 1);
+    return 0;
+
+#if COCOS2D_DEBUG >= 1
+    tolua_lerror:
+    tolua_error(tolua_S,"#ferror in function 'lua_cocos2dx_EventTouch_setEventCode'.",&tolua_err);
+#endif
+
+    return 0;
+}
 int lua_cocos2dx_EventTouch_getEventCode(lua_State* tolua_S)
 {
     int argc = 0;
@@ -2691,7 +2740,7 @@ int lua_cocos2dx_EventTouch_getEventCode(lua_State* tolua_S)
 
     return 0;
 }
-int lua_cocos2dx_EventTouch_setEventCode(lua_State* tolua_S)
+int lua_cocos2dx_EventTouch_setTouche(lua_State* tolua_S)
 {
     int argc = 0;
     cocos2d::EventTouch* cobj = nullptr;
@@ -2711,7 +2760,7 @@ int lua_cocos2dx_EventTouch_setEventCode(lua_State* tolua_S)
 #if COCOS2D_DEBUG >= 1
     if (!cobj) 
     {
-        tolua_error(tolua_S,"invalid 'cobj' in function 'lua_cocos2dx_EventTouch_setEventCode'", nullptr);
+        tolua_error(tolua_S,"invalid 'cobj' in function 'lua_cocos2dx_EventTouch_setTouche'", nullptr);
         return 0;
     }
 #endif
@@ -2719,23 +2768,23 @@ int lua_cocos2dx_EventTouch_setEventCode(lua_State* tolua_S)
     argc = lua_gettop(tolua_S)-1;
     if (argc == 1) 
     {
-        cocos2d::EventTouch::EventCode arg0;
+        cocos2d::Touch* arg0;
 
-        ok &= luaval_to_int32(tolua_S, 2,(int *)&arg0, "cc.EventTouch:setEventCode");
+        ok &= luaval_to_object<cocos2d::Touch>(tolua_S, 2, "cc.Touch",&arg0);
         if(!ok)
         {
-            tolua_error(tolua_S,"invalid arguments in function 'lua_cocos2dx_EventTouch_setEventCode'", nullptr);
+            tolua_error(tolua_S,"invalid arguments in function 'lua_cocos2dx_EventTouch_setTouche'", nullptr);
             return 0;
         }
-        cobj->setEventCode(arg0);
+        cobj->setTouche(arg0);
         return 0;
     }
-    luaL_error(tolua_S, "%s has wrong number of arguments: %d, was expecting %d \n", "cc.EventTouch:setEventCode",argc, 1);
+    luaL_error(tolua_S, "%s has wrong number of arguments: %d, was expecting %d \n", "cc.EventTouch:setTouche",argc, 1);
     return 0;
 
 #if COCOS2D_DEBUG >= 1
     tolua_lerror:
-    tolua_error(tolua_S,"#ferror in function 'lua_cocos2dx_EventTouch_setEventCode'.",&tolua_err);
+    tolua_error(tolua_S,"#ferror in function 'lua_cocos2dx_EventTouch_setTouche'.",&tolua_err);
 #endif
 
     return 0;
@@ -2790,8 +2839,9 @@ int lua_register_cocos2dx_EventTouch(lua_State* tolua_S)
 
     tolua_beginmodule(tolua_S,"EventTouch");
         tolua_function(tolua_S,"new",lua_cocos2dx_EventTouch_constructor);
-        tolua_function(tolua_S,"getEventCode",lua_cocos2dx_EventTouch_getEventCode);
         tolua_function(tolua_S,"setEventCode",lua_cocos2dx_EventTouch_setEventCode);
+        tolua_function(tolua_S,"getEventCode",lua_cocos2dx_EventTouch_getEventCode);
+        tolua_function(tolua_S,"setTouche",lua_cocos2dx_EventTouch_setTouche);
     tolua_endmodule(tolua_S);
     std::string typeName = typeid(cocos2d::EventTouch).name();
     g_luaType[typeName] = "cc.EventTouch";
