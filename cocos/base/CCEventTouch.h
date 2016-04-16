@@ -55,7 +55,7 @@ public:
 #if TOUCH_PERF_DEBUG
     void setEventCode(EventCode eventCode) { _eventCode = eventCode; };
     void setTouches(const std::vector<Touch*>& touches) { _touches = touches; };
-    void setTouche(Touch* touch) {
+    void setTouch(Touch* touch) {
         _touches = std::vector<Touch*>();
         _touches.push_back(touch);
     };

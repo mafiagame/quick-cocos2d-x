@@ -12,15 +12,15 @@
         
 --------------------------------
 -- 
--- @function [parent=#EventTouch] getEventCode 
+-- @function [parent=#EventTouch] setTouch 
 -- @param self
--- @return int#int ret (return value: int)
+-- @param #cc.Touch touch
         
 --------------------------------
 -- 
--- @function [parent=#EventTouch] setTouche 
+-- @function [parent=#EventTouch] getEventCode 
 -- @param self
--- @param #cc.Touch touch
+-- @return int#int ret (return value: int)
         
 --------------------------------
 -- 
