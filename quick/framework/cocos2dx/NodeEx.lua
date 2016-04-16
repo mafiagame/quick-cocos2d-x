@@ -152,7 +152,7 @@ function Node:setNodeEventEnabled(enabled, listener)
                     self:onExitTransitionStart()
                 elseif name == "cleanup" then
                     self:onCleanup()
-                elseif name == "destoty" then
+                elseif name == "destroy" then
                     self:onDestroy()
                 end
             end
