@@ -42,13 +42,16 @@
 -- @return int#int ret (return value: int)
         
 --------------------------------
--- 
--- @function [parent=#Touch] setTouchInfo 
+-- @overload self, int, float, float         
+-- @overload self, int, float, float, float, float         
+-- @function [parent=#Touch] setTouchInfo
 -- @param self
 -- @param #int id
 -- @param #float x
 -- @param #float y
-        
+-- @param #float prevx
+-- @param #float prevy
+
 --------------------------------
 --  returns the current touch location in screen coordinates 
 -- @function [parent=#Touch] getLocationInView 

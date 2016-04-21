@@ -497,7 +497,12 @@ int LuaEngine::handleTouchEvent(void* data)
         const cocos2d::Vec2 pt = Director::getInstance()->convertToGL(touch->getLocationInView());
         _stack->pushFloat(pt.x);
         _stack->pushFloat(pt.y);
-        ret = _stack->executeFunctionByHandler(handler, 3);
+        
+        const cocos2d::Vec2 prev_pt = Director::getInstance()->convertToGL(touch->getPreviousLocationInView());
+        _stack->pushFloat(prev_pt.x);
+        _stack->pushFloat(prev_pt.y);
+        
+        ret = _stack->executeFunctionByHandler(handler, 5);
     }
     _stack->clean();
     return ret;

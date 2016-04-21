@@ -66,6 +66,13 @@ public:
     Vec2 getPreviousLocationInView() const;
     /** returns the start touch location in screen coordinates */
     Vec2 getStartLocationInView() const;
+
+    void setTouchInfo(int id, float x, float y, float prevx, float prevy)
+    {
+        setTouchInfo(id, x, y);
+        _prevPoint.x = prevx;
+        _prevPoint.y = prevy;
+    }
     
     void setTouchInfo(int id, float x, float y)
     {
