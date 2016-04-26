@@ -767,7 +767,22 @@ int LuaJavaBridge::callJavaStaticMethod(lua_State *L)
     }
 
     bool success = args ? call.executeWithArgs(args) : call.execute();
-    if (args) delete []args;
+    if (args) {
+        for (int i = 0; i<count; ++i)
+        {
+            switch (call.argumentTypeAtIndex(i))
+            {
+                case TypeVector:
+                case TypeMap:
+                case TypeArrayList:
+                case TypeString:
+                default:
+                    call.getEnv()->DeleteLocalRef(args[i].l);
+                    break;
+            }
+        }
+        delete []args;
+    }
 
     if (!success)
     {
