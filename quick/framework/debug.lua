@@ -196,8 +196,5 @@ function dump(value, desciption, nesting)
         end
     end
     _dump(value, desciption, "- ", 1)
-
-    for i, line in ipairs(result) do
-        print(line)
-    end
+    print(table.concat( result, "\n"))
 end
