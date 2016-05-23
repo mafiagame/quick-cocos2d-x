@@ -177,7 +177,7 @@ public class Cocos2dxHelper {
     	PackageInfo pInfo;
 		try {
 			pInfo = sActivity.getPackageManager().getPackageInfo(sActivity.getPackageName(), 0);
-			versionCode = ""+pInfo.versionCode;
+			versionCode = pInfo.versionName;
 		} catch (NameNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
