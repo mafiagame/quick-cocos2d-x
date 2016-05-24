@@ -7,7 +7,7 @@ function EventProxy:ctor(eventDispatcher, view)
 
     if view then
         cc(view):addNodeEventListener(cc.NODE_EVENT, function(event)
-            if event.name == "exit" then
+            if event.name == "destroy" then
                 self:removeAllEventListeners()
             end
         end)
