@@ -11,6 +11,8 @@
 		0AFCAEC11B38FB5200980713 /* CCSpriteWithHue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCAEBE1B38FB5200980713 /* CCSpriteWithHue.cpp */; };
 		0AFCAEC21B38FB5200980713 /* CCSpriteWithHue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFCAEBF1B38FB5200980713 /* CCSpriteWithHue.h */; };
 		0AFCAEC31B38FB5200980713 /* CCSpriteWithHue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFCAEBF1B38FB5200980713 /* CCSpriteWithHue.h */; };
+		104604231CF82AE900EF6040 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 104604211CF82AE900EF6040 /* libcrypto.a */; };
+		104604241CF82AE900EF6040 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 104604221CF82AE900EF6040 /* libssl.a */; };
 		15AE180819AAD2F700C27E9E /* CCAABB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15AE17E419AAD2F700C27E9E /* CCAABB.cpp */; };
 		15AE180919AAD2F700C27E9E /* CCAABB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15AE17E419AAD2F700C27E9E /* CCAABB.cpp */; };
 		15AE180A19AAD2F700C27E9E /* CCAABB.h in Headers */ = {isa = PBXBuildFile; fileRef = 15AE17E519AAD2F700C27E9E /* CCAABB.h */; };
@@ -2015,6 +2017,8 @@
 		06CAAAC1186AD63B0012A414 /* TriggerObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriggerObj.h; sourceTree = "<group>"; };
 		0AFCAEBE1B38FB5200980713 /* CCSpriteWithHue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSpriteWithHue.cpp; sourceTree = "<group>"; };
 		0AFCAEBF1B38FB5200980713 /* CCSpriteWithHue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSpriteWithHue.h; sourceTree = "<group>"; };
+		104604211CF82AE900EF6040 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		104604221CF82AE900EF6040 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 		1551A33F158F2AB200E66CFE /* libcocos2d Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocos2d Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1551A342158F2AB200E66CFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15AE17E419AAD2F700C27E9E /* CCAABB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAABB.cpp; sourceTree = "<group>"; };
@@ -3120,10 +3124,12 @@
 			files = (
 				15AE1C1919AAE30900C27E9E /* libwebsockets.a in Frameworks */,
 				15AE1B4A19AAD49000C27E9E /* libcurl.a in Frameworks */,
+				104604241CF82AE900EF6040 /* libssl.a in Frameworks */,
 				A07A4CAF1783777C0073F6A7 /* Foundation.framework in Frameworks */,
 				1A570364180BD1120088DEC7 /* libpng.a in Frameworks */,
 				1A570378180BD1B40088DEC7 /* libjpeg.a in Frameworks */,
 				1A5703A4180BD2350088DEC7 /* libtiff.a in Frameworks */,
+				104604231CF82AE900EF6040 /* libcrypto.a in Frameworks */,
 				29031E0919BFE8DE00EFA1DF /* libchipmunk.a in Frameworks */,
 				1A5703BB180BD2800088DEC7 /* libwebp.a in Frameworks */,
 				1A57052E180BD3280088DEC7 /* libfreetype.a in Frameworks */,
@@ -3997,6 +4003,8 @@
 		1AAF541B180E3B6A000584C8 /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				104604211CF82AE900EF6040 /* libcrypto.a */,
+				104604221CF82AE900EF6040 /* libssl.a */,
 				1AAF541C180E3B6A000584C8 /* libcurl.a */,
 			);
 			name = ios;
