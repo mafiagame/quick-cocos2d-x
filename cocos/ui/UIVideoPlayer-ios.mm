@@ -286,7 +286,7 @@ VideoPlayer::~VideoPlayer()
 {
     if(_videoView)
     {
-        [((UIVideoViewWrapperIos*)_videoView) dealloc];
+        [((UIVideoViewWrapperIos*)_videoView) release];
     }
 }
 
